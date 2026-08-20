@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* TOP NAVIGATION BAR STYLE */
+
+#logo {
+    font-style: italic;
+    font-style: bold;
+}
+
+/* PAGE DESCRIPTION AND TEXT */
+
+.welcome h2 {
+    font-style: italic;
+}
+
+.pagedescription h3 {
+    font-style: bold;
+}
+
+/* SLIDESHOW INDEX PAGE */
+
+.slideshow {
+    
+}
+
+/* CARDS */
+
+.card {
+
+}
+
+.card h3 {
+
+}
+
+.card p {
+
+}
