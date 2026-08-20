@@ -7,4 +7,7 @@ Write whit:
 - JS;
 - XML/TEI, XML/DC.
 
+Disclaimer:
+Login button it's not been implemented.
+
 Thanks to my cats for the help.
