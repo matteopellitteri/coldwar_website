@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+    <head> <!-- HEADER OF THE PAGE AND METADATAS IN DUBLIN CORE -->
+        <link rel="stylesheet" href="myStyle.css">
+        <script src="myScript.js" defer></script>
+        <title>COLD WAR</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Matteo Pellitteri">
+        <meta name="description" content="Cold War Content">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar"> <!-- NAVIGATIONBAR ON THE TOP OF THE PAGE -->
+                <div class="navbar_left">
+                    <a href="index.html" id="logo" title="HOME"><b>COLD WAR</b></a>
+                </div>
+
+                <div class="navbar_center">
+                    <a href="persons.html" title="PERSONS"><b>Persons</b></a>
+                    <a href="speechs.html" title="SPEECHS"><b>Speechs</b></a>
+                    <a href="#" title="EVENTS"><b>Events</b></a>
+                    <a href="photos.html" title="PHOTOS"><b>Photos</b></a>
+                </div>
+
+                <div class="navbar_right">
+                    <a href="login.html" id="login" title="LOGIN"><b>LOGIN</b></a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="pagedescription"> <!-- PAGE DESCRIPTION -->
+                <h3><b>The Great Speechs of the Cold War</b></h3>
+
+                <p>
+                    During the Cold War...
+                </p>
+            </section>
+
+            <section class="filters"> <!-- FILTERS SECTION -->
+                <input type="text" id="name" onkeyup="myFunctionName()" placeholder="Search for name..." title="NAME">
+                <input type="text" id="author" onkeyup="myFunctionAuthor()" placeholder="Search for author..." title="AUTHOR">
+                <input type="text" id="year" onkeyup="myFunctionYear()" placeholder="Search for year..." title="YEAR">
+                <input type="text" id="place" onkeyup="myFunctionPlace()" placeholder="Search for place..." title="PLACE">
+
+                <script src="filters.js"></script>
+            </section>
+
+            <section class="speechs" id="myCards"> <!-- SPEECHS -->
+                <div class="card"> <!-- CHURCHILL SPEECH -->
+                    <a href="sinewsofpeacexml.html" title="The Sinews of peace">
+                        <img src="" alt="The Sinews of peace">
+                        <div class="card_info">
+                            <h3 id="name">The Sinews of peace</h3>
+                            <p id="author">Winston Churchill</p>
+                            <p id="year">5 Mars 1946</p>
+                            <p id="place">Fulton (USA)</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card"> <!-- KHRUSHCHEV SPEECH -->
+                    <a href="persons.html" title="On the Cult of Personality and Its Consequences">
+                        <img src="" alt="On the Cult of Personality and Its Consequences">
+                        <div class="card_info">
+                            <h3>On the Cult of Personality and Its Consequences</h3>
+                            <p>Nikita Khrushchev</p>
+                            <p>25 Febbrary 1956</p>
+                            <p>Moscow (USSR)</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card"> <!-- KENNEDY SPEECH -->
+                    <a href="persons.html" title="Ich bin ein Berliner">
+                        <img src="" alt="Ich bin ein Berliner">
+                        <div class="card_info">
+                            <h3>Ich bin ein Berliner</h3>
+                            <p>John F. Kennedy</p>
+                            <p>25 Febbrary 1956</p>
+                            <p>West Berlin (FRG)</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card"> <!-- REAGAN SPEECH -->
+                    <a href="persons.html" title="Remarks on East-West Relations at the Brandeburg Gate">
+                        <img src="" alt="Remarks on East-West Relations at the Brandeburg Gate">
+                        <div class="card_info">
+                            <h3>Remarks on East-West Relations at the Brandeburg Gate</h3>
+                            <p>Ronald Reagan</p>
+                            <p>12 June 1987</p>
+                            <p>West Berlin (FRG)</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card"> <!-- REAGAN SPEECH -->
+                    <a href="persons.html" title="Address to the United Nations General Assembly">
+                        <img src="" alt="Address to the United Nations General Assembly">
+                        <div class="card_info">
+                            <h3>Address to the United Nations General Assembly</h3>
+                            <p>Mikhail Gorbachev</p>
+                            <p>7 Dicember 1988</p>
+                            <p>New York (USA)</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <section class="searchbar"> <!-- SEARCHBAR -->
+                <form>
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer"> <!-- FOOTER AT THE BOTTON OF THE PAGE -->
+            <p>&copy; 2024 Cold War. Tutti i diritti riservati.</p>
+        </footer>
+    </body>
+</html>

@@ -15,19 +15,19 @@
     <body>
         <header>
             <nav class="navbar"> <!-- NAVIGATIONBAR ON THE TOP OF THE PAGE -->
-                <div class="navnar_left">
-                    <a href="index.html" id="logo" title="HOME">COLD WAR</a>
+                <div class="navbar_left">
+                    <a href="index.html" id="logo" title="HOME"><b>COLD WAR</b></a>
                 </div>
 
-                <div class="navnar_center">
-                    <a href="persons.html" title="PERSONS">Persons</a>
-                    <a href="speechs.html" title="SPEECHS">Speechs</a>
-                    <a href="#" title=""></a>
-                    <a href="photos.html" title="PHOTOS">Photos</a>
+                <div class="navbar_center">
+                    <a href="persons.html" title="PERSONS"><b>Persons</b></a>
+                    <a href="speechs.html" title="SPEECHS"><b>Speechs</b></a>
+                    <a href="#" title="EVENTS"><b>Events</b></a>
+                    <a href="photos.html" title="PHOTOS"><b>Photos</b></a>
                 </div>
 
                 <div class="navbar_right">
-                    <a href="login.html" id="login" title="LOGIN">LOGIN</a>
+                    <a href="login.html" id="login" title="LOGIN"><b>LOGIN</b></a>
                 </div>
             </nav>
         </header>
@@ -37,32 +37,55 @@
                 <h2>Welcome to COLD WAR</h2>
 
                 <p>
-                    
+                    Welcome to...
                 </p>
             </section>
 
             <section class="pagedescription"> <!-- PAGE DESCRIPTION -->
-                <h3>What is COLD WAR</h3>
+                <h3><b>What is COLD WAR</b></h3>
 
                 <p>
-                    
+                    COLD WAR is a project for...
                 </p>
             </section>
 
             <section class="slideshow"> <!-- IMPORTANT CONTENT SLIDESHOW -->
-                <div class="card">
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                <div class="card"> <!-- WINSTON CHURCHILL BIOGRAPHY -->
+                    <a href="persons.html" title="Winston Churchill">
+                        <img src="" alt="Winston Churchill">
+                        <div class="card_info">
+                            <h3>Winston Churchill</h3>
+                            <p>Biography</p>
+                        </div>
+                    </a>
                 </div>
 
-                <div class="card">
-
+                <div class="card"> <!-- SINEWS OF PEACE SPEECH -->
+                    <a href="speechs.html" title="Sinews of peace">
+                        <img src="" alt="Sinews of peace">
+                        <div class="card_info">
+                            <h3>Sinews of peace</h3>
+                            <p>Speech</p>
+                        </div>
+                    </a>
                 </div>
 
-                <div class="card">
-
+                <div class="card"> <!-- WINSTON CHURCHILL PHOTOS -->
+                    <a href="photos.html" title="Winston Churchill">
+                        <img src="" alt="Winston Churchill">
+                        <div class="card_info">
+                            <h3>Winston Churchill</h3>
+                            <p>Photos</p>
+                        </div>
+                    </a>
                 </div>
+
+                <div class="controls">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <script src="slideshow.js"></script>
             </section>
 
             <section class="searchbar"> <!-- SEARCHBAR -->
@@ -74,7 +97,7 @@
         </main>
 
         <footer class="footer"> <!-- FOOTER AT THE BOTTON OF THE PAGE -->
-            <p></p>
+            <p>&copy; 2024 Cold War. Tutti i diritti riservati.</p>
         </footer>
     </body>
 </html>
