@@ -280,37 +280,15 @@ main {
     background-color: var(--button-hover);
 }
 
-/* SPEECHS PAGE */
+/* FILTERS */
 
-.speechs {
-    position: relative;
-    display: flex;
-    flex: 3;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin: 0;
-    padding: 14px 16px;
+.filters input {
+    color: var(--text);
 }
 
-/* PHOTOS PAGE */
+/* CARDS EXPOSITION */
 
-.photos {
-    position: relative;
-    display: flex;
-    flex: 3;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin: 0;
-    padding: 14px 16px;
-}
-
-/* PERSONS PAGE */
-
-.persons {
+.cards {
     position: relative;
     display: flex;
     flex: 3;
