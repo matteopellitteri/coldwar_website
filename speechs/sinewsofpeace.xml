@@ -4,8 +4,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title></title>
-                <author></author>
+                <title>The Sinews of Peace</title>
+                <author>Winston Churchill</author>
             </titleStmt>
             <recordingStmt>
                 <recording type="audio" dur="PT46M">
@@ -58,12 +58,11 @@
                             <country>British Empire</country>
                         </placeName>
                     </place>
-                    <place xml:id="DC">
+                    <place xml:id="CAN">
                         <placeName>
                             <country>Dominion of Canada</country>
                         </placeName>
                     </place>
-                    
                 </listPlace>
             </settingDesc>
         </profileDesc>
@@ -72,32 +71,30 @@
     <text>
         <body>
             <div>
-                President McCluer
+                <person ref="#FM">President McCluer</person>
                 , ladies and gentlemen, and last but certainly not least,
-                President of the United States of America
+                <person ref="#HT">President of the United States of America</person>
                 : I am very glad indeed to come to
                 <place ref="#WMC">Westminster College</place>
-                this afternoon, and I am complimented
-                that you should give me a degree from an institution whose reputation has been so solidly
+                this afternoon, and I am complimented that you should give me a degree from an institution whose reputation has been so solidly
                 established. The name
-                "Westminster"
+                <place ref="#WMC">Westminster</place>
                 somehow or other seems familiar to me. I feel as if I've
                 heard of it before. Indeed now that I come to think of it, it was at
-                Westminster
+                <place ref="#WMC">Westminster</place>
                 that I received
                 a very large part of my education in politics, dialectic, rhetoric a nd one or two other things.
                 So, in fact we have both been educated at the same, or similar, or, at any rate, kindred
                 establishments.
                 It is also an honor, ladies and gentlemen, perhaps almost unique, for a private visitor to be
                 introduced to an academic audience by the
-                President of the United States
+                <person ref="#HT">President of the United States</person>
                 . Amid his heavy burdens, duties, and responsibilities unsought but not recoiled from the
-                President
-                has
-                traveled a thousand miles to dignify and magnify our meeting here today and to give me an
+                <person ref="#HT">President</person>
+                has traveled a thousand miles to dignify and magnify our meeting here today and to give me an
                 opportunity of addressing this kindred nation, as well as my own countrymen across the
                 ocean, and and perhaps some other countries too. The
-                President
+                <person ref="#HT">President</person>
                 has told you that it is his
                 wish, as I am sure it is yours, that I should have full liberty to give my true and faithful
                 counsel in these anxious and baffling times.
@@ -110,7 +107,7 @@
                 what strength I have that what has been gained with so much sacrifice and suffering shall be
                 preserved for the future glory and safety of mankind.
                 Ladies and gentlemen, the
-                United States
+                <place ref="#USA">United States</place>
                 stands at this time at the pinnacle of world power. It
                 is a solemn moment for the American democracy. For with primacy in power is also joined an
                 awei nspiring accountability to the future. If you look around you, you must feel not only the
@@ -120,7 +117,7 @@
                 constancy of mind, persistency of purpose, and the grand simplicity of decision shall rule and
                 guide the conduct of the Englishspea king peoples in peace as they did in war. And we must,
                 and I believe we shall, prove ourselves equal to this severe requirement.
-                President McCluer
+                <person ref="#FM">President McCluer</person>
                 , when American military men approach some serious situation they are
                 wont to write at the head of their directive the words "overa ll strategic concept." There is
                 wisdom in this, as it leads to clarity of thought. What then is the overall strategic concept
@@ -228,7 +225,9 @@
                 come to the crux of what I have traveled here to say. Neither the sure prevention of war, nor
                 the continuous rise of world organization will be gained without what I have called the
                 fraternal association of the Englishspea king peoples. This means a special relationship
-                between the British Commonwealth and Empire and the United States of America. Ladies and
+                between the British Commonwealth and Empire and the
+                <place ref="#USA">United States of America</place>
+                . Ladies and
                 gentlemen, this is no time for generalities, and I will venture to be precise.
                 Fraternal association requires not only the growing friendship and mutual understanding
                 between our two vast but kindred systems of society, but the continuance of the intimate
@@ -241,14 +240,14 @@
                 as the world calms down, to important financial savings. Already we use together a large
                 number of islands; more may well be entrusted to our joint care in the near future.
                 The
-                United States
+                <place ref="#USA">United States</place>
                 has already a
                 Permanent Defense Agreement
                 with the
-                Dominion of Canada
+                <place ref="#CAN">Dominion of Canada</place>
                 ,
                 which is so devotedly attached to the
-                British Commonwealth and Empire
+                <place ref="#BH">British Commonwealth and Empire</place>
                 . This
                 Agreement
                 is
@@ -260,7 +259,7 @@
                 whose outstretched arm many of us can already clearly see.
                 There is however an important question we must ask ourselves. Would a special relationship
                 between the United States and the
-                British Commonwealth
+                <place ref="#BH">British Commonwealth</place>
                 be inconsistent with our overriding
                 loyalties to the world organization? I reply that, on the contrary, it is probably the only means
                 by which that organization will achieve its full stature and strength. There are already the
