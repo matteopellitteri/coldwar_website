@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0"> <!-- WINSTON CHURCHILL, SIDENWES OF PEACE, SPEECH, 5 MARCH 1946 -->
-    <teiHeader>
-        <fileDesc>
+    <teiHeader> <!-- teiHeader serve a  -->
+        <fileDesc> <!-- fileDesc contiene descrizione bibliografica del documento -->
             <titleStmt>
                 <title>The Sinews of Peace</title>
                 <author>Winston Churchill</author>
@@ -10,14 +10,13 @@
             <recordingStmt>
                 <recording type="audio" dur="PT46M">
                 </recording>
-                <date>
-                </date>
+                <date when="1946-03-05">5 March 1946</date>
             </recordingStmt>
         </fileDesc>
-        <profileDesc>
-            <particDesc>
+        <profileDesc> <!-- profileDesc contiene  -->
+            <particDesc> <!-- particDesc contiene  -->
                 <listPerson>
-                    <person xml:id="WC">
+                    <person xml:id="WSC">
                         <persName>
                             <forename>Winston</forename>
                             <forename>Leonard</forename>
@@ -25,14 +24,14 @@
                             <surname>Churchill</surname>
                         </persName>
                     </person>
-                    <person xml:id="FM">
+                    <person xml:id="FLM">
                         <persName>
                             <forename>Franc</forename>
                             <forename>Lewis</forename>
                             <surname>McCluer</surname>
                         </persName>
                     </person>
-                    <person xml:id="HT">
+                    <person xml:id="HST">
                         <perName>
                             <forename>Henry</forename>
                             <addName>S.</addName>
@@ -41,7 +40,7 @@
                     </person>
                 </listPerson>
             </particDesc>
-            <settingDesc>
+            <settingDesc> <!-- settingDesc contiene  -->
                 <listPlace>
                     <place xml:id="USA">
                         <placeName>
@@ -53,7 +52,7 @@
                             <orgName>Westminster College</orgName>
                         </placeName>
                     </place>
-                    <place xml:id="BH">
+                    <place xml:id="BEM">
                         <placeName>
                             <country>British Empire</country>
                         </placeName>
@@ -71,9 +70,9 @@
     <text>
         <body>
             <div>
-                <person ref="#FM">President McCluer</person>
+                <person ref="#FLM">President McCluer</person>
                 , ladies and gentlemen, and last but certainly not least,
-                <person ref="#HT">President of the United States of America</person>
+                <person ref="#HST">President of the United States of America</person>
                 : I am very glad indeed to come to
                 <place ref="#WMC">Westminster College</place>
                 this afternoon, and I am complimented that you should give me a degree from an institution whose reputation has been so solidly
@@ -88,13 +87,13 @@
                 establishments.
                 It is also an honor, ladies and gentlemen, perhaps almost unique, for a private visitor to be
                 introduced to an academic audience by the
-                <person ref="#HT">President of the United States</person>
+                <person ref="#HST">President of the United States</person>
                 . Amid his heavy burdens, duties, and responsibilities unsought but not recoiled from the
-                <person ref="#HT">President</person>
+                <person ref="#HST">President</person>
                 has traveled a thousand miles to dignify and magnify our meeting here today and to give me an
                 opportunity of addressing this kindred nation, as well as my own countrymen across the
                 ocean, and and perhaps some other countries too. The
-                <person ref="#HT">President</person>
+                <person ref="#HST">President</person>
                 has told you that it is his
                 wish, as I am sure it is yours, that I should have full liberty to give my true and faithful
                 counsel in these anxious and baffling times.
@@ -117,7 +116,7 @@
                 constancy of mind, persistency of purpose, and the grand simplicity of decision shall rule and
                 guide the conduct of the Englishspea king peoples in peace as they did in war. And we must,
                 and I believe we shall, prove ourselves equal to this severe requirement.
-                <person ref="#FM">President McCluer</person>
+                <person ref="#FLM">President McCluer</person>
                 , when American military men approach some serious situation they are
                 wont to write at the head of their directive the words "overa ll strategic concept." There is
                 wisdom in this, as it leads to clarity of thought. What then is the overall strategic concept

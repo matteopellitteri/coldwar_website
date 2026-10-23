@@ -1,5 +1,8 @@
 # Cold War Web Site
 
+Quando ho scritto questo codice solamente Dio e io ne conoscevamo il contenuto.
+Questo sapere ora è solo nelle mani del Signore.
+
 Cold War Web Site: Events, Biography, Photos of the Cold War.
 
 Write whit:
@@ -9,5 +12,3 @@ Write whit:
 
 Disclaimer:
 Login button it's not been implemented.
-
-Thanks to my cats for the help.
