@@ -13,8 +13,11 @@
                 <date when="1946-03-05">5 March 1946</date>
             </recordingStmt>
         </fileDesc>
-        <profileDesc> <!-- profileDesc contiene  -->
-            <particDesc> <!-- particDesc contiene  -->
+        <sourceDesc>
+            <p>Esiste una fonte scritta ...</p>
+        </sourceDesc>
+        <profileDesc> <!-- profileDesc contiene informazioni contestuali e classificazioni relative al testo del documento -->
+            <particDesc> <!-- particDesc contiene informazioni sulle persone descritte nel documento -->
                 <listPerson>
                     <person xml:id="WSC">
                         <persName>
@@ -52,7 +55,7 @@
                             <orgName>Westminster College</orgName>
                         </placeName>
                     </place>
-                    <place xml:id="BEM">
+                    <place xml:id="BE">
                         <placeName>
                             <country>British Empire</country>
                         </placeName>
@@ -144,8 +147,12 @@
                 and computed available resources, always proceed to the next step namely, the method.
                 Here again there is widespread agreement. A world organization has already been erected for
                 the prime purpose of preventing war.
-                UNO " UN O" ¹ the successor of the League of Nations, with the decisive addition of the
-                United States and all that that means, is already at work. We must make sure that its work is
+                UNO
+                " UN O" ¹ the successor of the
+                < ref="#LON">League of Nations</>
+                , with the decisive addition of the
+                <place ref="#USA">United States</place>
+                and all that that means, is already at work. We must make sure that its work is
                 fruitful, that it is a reality and not a sham, that it is a force for action, and not merely a
                 frothing of words, that it is a true temple of peace in which the shields of many nations can
                 some day be hung up, and not merely a cockpit in a Tower of Babel. Before we cast away the
@@ -194,9 +201,16 @@
                 privileged party and a political police. It is not our duty at this time when difficulties are so
                 numerous to interfere forcibly in the internal affairs of countries which we have not conquered
                 in war. But we must never cease to proclaim in fearless tones the great principles of freedom
-                and the rights of man which are the joint inheritance of the Englishsp eaking world and which
-                through Magna Carta, the Bill of Rights, the Habeas Corpus, trial by jury, the English common
-                law find their most famous expression in the
+                and the rights of man which are the joint inheritance of the English speaking world and which
+                through
+                Magna Carta
+                , the
+                Bill of Rights
+                , the
+                Habeas Corpus
+                , trial by jury, the
+                English common law
+                 find their most famous expression in the
                 American Declaration of Independence
                 . All this means that the people of any country have the right, and should have the power by
                 constitutional action, by free unfettered elections, with secret ballot, to choose or change the
@@ -216,18 +230,21 @@
                 the aftermath of our stupendous struggle; but this will pass and may pass quickly, and there
                 is no reason except human folly or sub human crime which should deny to all the nations the
                 inauguration and enjoyment of an age of plenty. I have often used words which I learned 50
-                years ago from a great IrishA merican orator, a friend of mine, Mr. Bourke Cockran, "There is
+                years ago from a great
+                Irish American orator
+                , a friend of mine,
+                Mr. Bourke Cockran
+                , "There is
                 enough for all. The earth is a generous mother; she will provide in plentiful abundance food
                 for all her children if they will but cultivate her soil in justice and in peace."
                 And so far I feel that we are in full agreement.
                 Now, while still pursuing the method the method of realizing our overall strategic concept, I
                 come to the crux of what I have traveled here to say. Neither the sure prevention of war, nor
                 the continuous rise of world organization will be gained without what I have called the
-                fraternal association of the Englishspea king peoples. This means a special relationship
+                fraternal association of the English speaking peoples. This means a special relationship
                 between the British Commonwealth and Empire and the
                 <place ref="#USA">United States of America</place>
-                . Ladies and
-                gentlemen, this is no time for generalities, and I will venture to be precise.
+                . Ladies and gentlemen, this is no time for generalities, and I will venture to be precise.
                 Fraternal association requires not only the growing friendship and mutual understanding
                 between our two vast but kindred systems of society, but the continuance of the intimate
                 relations between our military advisers, leading to common study of potential dangers, the
@@ -235,7 +252,9 @@
                 at technical colleges. It should carry with it the continuance of the present facilities for mutual
                 security by the joint use of all Naval and Air Force bases in the possession of either country all
                 over the world. And this would perhaps double the mobility of the American Navy and Air
-                Force. It would greatly expand that of the British Empire forces and it might well lead, if and
+                Force. It would greatly expand that of the
+                British Empire
+                forces and it might well lead, if and
                 as the world calms down, to important financial savings. Already we use together a large
                 number of islands; more may well be entrusted to our joint care in the near future.
                 The
@@ -244,21 +263,19 @@
                 Permanent Defense Agreement
                 with the
                 <place ref="#CAN">Dominion of Canada</place>
-                ,
-                which is so devotedly attached to the
-                <place ref="#BH">British Commonwealth and Empire</place>
-                . This
-                Agreement
-                is
-                more effective than many of those which have often been made under formal alliances. This
-                principle should be extended to all the British Commonwealths with full reciprocity. Thus,
+                , which is so devotedly attached to the
+                <place ref="#BE">British Commonwealth and Empire</place>
+                . This Agreement is more effective than many of those which have often been made under formal alliances.
+                This principle should be extended to all the
+                <place ref="#BE">British Commonwealths</place>
+                with full reciprocity. Thus,
                 whatever happens, and thus only, shall we be secure ourselves and able to work together for
                 the high and simple causes that are dear to us and bode no ill to any. I feel eventually there
                 will come the principle of common citizenship, but that we may be content to leave to destiny,
                 whose outstretched arm many of us can already clearly see.
                 There is however an important question we must ask ourselves. Would a special relationship
                 between the United States and the
-                <place ref="#BH">British Commonwealth</place>
+                <place ref="#BE">British Commonwealth</place>
                 be inconsistent with our overriding
                 loyalties to the world organization? I reply that, on the contrary, it is probably the only means
                 by which that organization will achieve its full stature and strength. There are already the
