@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0"> <!-- WINSTON CHURCHILL, SIDENWES OF PEACE, SPEECH, 5 MARCH 1946 -->
-    <teiHeader> <!-- teiHeader serve a  -->
-        <fileDesc> <!-- fileDesc contiene descrizione bibliografica del documento -->
-            <titleStmt>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> <!-- WINSTON CHURCHILL, SIDENWES OF PEACE, SPEECH, 05 MARCH 1946 -->
+    <teiHeader> <!-- TEIHEADER :: BIBLIOGRAPHIC INFORMATIONS -->
+        <fileDesc> <!-- FILEDESC :: FILE DESCRIPTION -->
+            <titleStmt> <!-- TITLESTMT :: MORE BIBLIOGRAPHIC INFORMATIONS: TITLE, AUTHOR, DATE, EDITOR, ... -->
                 <title>
                     <title type="main">The Sinews of Peace</title>
-                    <title type="sub">Speech by Winston S. Churchill, Prime Minister of the United Kingdom at the Westminster College, Fulton, Missouri, USA</title>
+                    <title type="sub">
+                        Speech by <author ref="#WC"><persName>Winston S. Churchill</persName></author>, 
+                        <roleName>Prime Minister of the <placeName ref="#UKC">United Kingdom</placeName></roleName> at the 
+                        <placeName ref="#WMC">Westminster College</placeName>, <placeName ref="#FLT">Fulton</placeName>,
+                        <placeName ref="#MSS">Missouri</placeName>, <placeName ref="#USA">USA</placeName>
+                    </title>
                     <date when="1946-03-05">05 March 1946</date>
+                    <!-- <idno type="URI">https://www.nato.int/en/news-and-events/events/transcripts/1946/03/05/the-sinews-of-peace</idno> -->
                 </title>
                 <author>
                     <persName ref="#WC">Winston Churchill</persName>
@@ -15,18 +21,24 @@
                 <editor>
                     <orgName ref="#NATO">North Atlantic Treaty Organization (NATO)</orgName>
                 </editor>
+                <respStmt>
+
+                </respStmt>
             </titleStmt>
-
             <publicationStmt>
-                <publisher>North Atlantic Treaty Organization (NATO)</publisher>
-                <pubPlace>Brussels, Belgium</pubPlace>
-                <availability status="free" type="open-access">This document is available for free and open access.</availability>
+                <publisher>
+                    <orgName ref="#NATO">North Atlantic Treaty Organization (NATO)</orgName>
+                </publisher>
+                <pubPlace>
+                    <placeName ref="#BRU">Brussels, Belgium</placeName>
+                </pubPlace>
+                <availability status="free" type="open_access">
+                    <p>This document is available for free and open access.</p>
+                </availability>
             </publicationStmt>
-
             <sourceDesc>
                 
             </sourceDesc>
-
             <!-- 
             <recordingStmt>
                 <recording type="audio" dur="PT46M">
@@ -42,7 +54,7 @@
             <particDesc> <!-- particDesc contiene informazioni sulle persone descritte nel documento -->
                 <listPerson>
                     <person xml:id="WC" role="Prime Minister of the United Kingdom">
-                        <persName>
+                        <persName sameAs="https://viaf.org/en/viaf/94507588">
                             <forename>Winston</forename>
                             <forename>Leonard</forename>
                             <forename>Spencer</forename>
@@ -50,20 +62,19 @@
                         </persName>
                     </person>
                     <person xml:id="FM" role="President of Westminster College">
-                        <persName>
+                        <persName sameAs="">
                             <forename>Franc</forename>
                             <forename>Lewis</forename>
                             <surname>McCluer</surname>
                         </persName>
                     </person>
                     <person xml:id="HT" role="President of the United States">
-                        <perName>
-                            <forename>Henry</forename>
+                        <persName sameAs="https://viaf.org/en/viaf/61561827">
+                            <forename>Harry</forename>
                             <addName>S.</addName>
                             <surname>Truman</surname>
-                        </perName>
+                        </persName>
                     </person>
-
                     <personGrp xml:id="PRT" role="Participants">
                         <persName> Participants </persName>
                     </personGrp>
@@ -83,14 +94,24 @@
                             <country>United States of America</country>
                         </placeName>
                     </place>
-                    <place xml:id="WMC">
+                    <place xml:id="MSS">
                         <placeName>
-                            <orgName>Westminster College</orgName>
+                            <country>Missouri</country>
                         </placeName>
                     </place>
-                    <place xml:id="UKEC">
+                    <place xml:id="FLT">
                         <placeName>
-                            <country>British Empire and Commonwealth</country>
+                            <country>Fulton</country>
+                        </placeName>
+                    </place>
+                    <place xml:id="UKC">
+                        <placeName>
+                            <country>United Kingdom and Commonwealth</country>
+                        </placeName>
+                    </place>
+                    <place xml:id="BRE">
+                        <placeName>
+                            <country>British Empire</country>
                         </placeName>
                     </place>
                     <place xml:id="CAN">
@@ -98,17 +119,40 @@
                             <country>Dominion of Canada</country>
                         </placeName>
                     </place>
-                    <place xml:id="UNO">
-                        <placeName>
-                            <orgName>United Nations Organization</orgName>
-                        </placeName>
-                    </place>
                     <place xml:id="USSR">
                         <placeName>
                             <country>Union of Soviet Socialist Republics</country>
                         </placeName>
                     </place>
+                    <place xml:id="BRU">
+                        <placeName>
+                            <country>Brussels, Belgium</country>
+                        </placeName>
+                    </place>
                 </listPlace>
+                <listOrg>
+                    <org xml:id="UNO">
+                        <orgname>
+                            <orgName>United Nations Organization</orgName>
+                        </orgname>
+                    </org>
+                    <org xml:id="WMC">
+                        <orgName>
+                            <orgName>Westminster College</orgName>
+                        </orgName>
+                    </org>
+                    <org xml:id="NATO">
+                        <orgName>
+                            <orgName>North Atlantic Treaty Organization (NATO)</orgName>
+                        </orgName>
+                    </org>
+                </listOrg>
+                <listEvent>
+                    <event xml:id="WW2" when="1939-09-01/1945-09-02">
+                        <eventName>Second World War</eventName>
+                        <idno type="URI">https://www.wikidata.org/wiki/Q362</idno>
+                    </event>
+                </listEvent>
             </settingDesc>
         </profileDesc>
     </teiHeader>
@@ -117,10 +161,10 @@
         <body>
             <div>
                 <p>                    
-                    <person ref="#WC">I</person> am glad to come to <place ref="#WMC">Westminster College</place> this afternoon, and am complimented 
-                    that <personGrp ref="#AUD">you</personGrp> should give <person ref="#WC">me</person> a degree. The name 
-                    <place ref="#WMC">Westminster</place> is somehow familiar to <person ref="#WC">me</person>. <person ref="#WC">I</person> 
-                    seem to have heard of it before. Indeed, it was at <place ref="#WMC">Westminster</place> that <person ref="#WC">I</person> 
+                    <persName ref="#WC">I</persName> am glad to come to <placeName ref="#WMC">Westminster College</placeName> this afternoon, and am complimented 
+                    that <persName ref="#AUD">you</persName> should give <persName ref="#WC">me</persName> a degree. The name 
+                    <placename ref="#WMC">Westminster</placename> is somehow familiar to <persName ref="#WC">me</persName>. <persName ref="#WC">I</persName> 
+                    seem to have heard of it before. Indeed, it was at <placeName ref="#WMC">Westminster</placeName> that <personName ref="#WC">I</personName> 
                     received a very large part of my education in politics, dialectic, rhetoric, and one or two other things. 
                     In fact <personGrp ref="#PRT">we</personGrp> have both been educated at the same, or similar, or, at any rate, kindred establishments.
                 </p>
@@ -130,7 +174,7 @@
                     Amid his heavy burdens, duties, and responsibilities - unsought but not recoiled from - the <person ref="#HT">President</person> 
                     has traveled a thousand miles to dignify and magnify <personGrp ref="#PRT">our</personGrp> meeting here 
                     <date when="1946-03-05">today</date> and to give <person ref="#WC">me</person> an opportunity of addressing 
-                    this kindred <place ref="#USA">nation</place>, as well as my own countrymen across the ocean, and perhaps 
+                    this kindred <placeName ref="#USA">nation</placeName>, as well as my own countrymen across the ocean, and perhaps 
                     some other countries too. The <person ref="#HT">President</person> has told <personGrp ref="#AUD">you</personGrp> 
                     that it is his wish, as <person ref="#WC">I</person> am sure it is <personGrp ref="#AUD">yours</personGrp>, 
                     that <person ref="#WC">I</person> should have full liberty to give my true and faithful counsel in these 
@@ -146,12 +190,12 @@
                     beset us on the morrow of our absolute victory in arms, and to try to make sure with what strength <person ref="#WC">I</person> 
                     have that what has been gained with so much sacrifice and suffering shall be preserved for the future glory and safety of mankind.
                 </p>
-                    The <place ref="#USA">United States</place> stands at this time at the pinnacle of world power. It is a solemn moment for the 
+                    The <placeName ref="#USA">United States</placeName> stands at this time at the pinnacle of world power. It is a solemn moment for the 
                     <>American Democracy</>. For with primacy in power is also joined an awe-inspiring accountability 
                     to the future. If <personGrp ref="#AUD">you</personGrp> look around <personGrp ref="#AUD">you</personGrp>, <personGrp ref="#AUD">you</personGrp> 
                     must feel not only the <>sense of duty</> done but also <personGrp ref="#AUD">you</personGrp> must feel anxiety lest 
                     <personGrp ref="#AUD">you</personGrp> fall below the level of achievement. Opportunity is here now, clear and shining for both our 
-                    <place ref="#USA; #UKEC">countries</place>. To reject it or ignore it or fritter it away will bring upon us all the long reproaches 
+                    <place ref="#USA; #UKC">countries</place>. To reject it or ignore it or fritter it away will bring upon us all the long reproaches 
                     of the after-time. It is necessary that constancy of mind, persistency of purpose, and the grand simplicity of decision shall 
                     guide and rule the conduct of the English-speaking peoples in peace as they did in war. We must, and <person ref="#WC">I</person> 
                     believe we shall, prove 
@@ -186,21 +230,21 @@
                 </p>
                 <p>
                     It would nevertheless be wrong and imprudent to entrust the secret knowledge or experience of the atomic bomb, 
-                    which the <place ref="#USA">United States</place>, <place ref="#UKEC">Great Britain</place>, and 
+                    which the <place ref="#USA">United States</place>, <place ref="#UKC">Great Britain</place>, and 
                     <place ref="#CAN">Canada</place> now share, to the <place ref="#ONU">world organization</place>, 
                     while it is still in its infancy. It would be criminal madness to cast it adrift in this still 
                     agitated and un-united world. No one in any country has slept less well in their beds because this 
                     knowledge and the method and the raw materials to apply it, are at present largely retained in 
                     American hands. <person ref="#WC">I</person> do not believe we should all have slept so soundly had 
                     the positions been reversed and if some Communist or neo-Fascist State monopolized for the time being these 
-                    dread agencies. The fear of them alone might easily have been used to enforce <place ref="#USR">totalitarian systems</place>
+                    dread agencies. The fear of them alone might easily have been used to enforce <place ref="#USSR">totalitarian systems</place>
                     upon the free democratic world, with consequences appalling to human imagination. <>God</> 
                     has willed that this shall not be and we have at least a breathing space to set our house in order before this peril has to be encountered: and even then, if no effort is spared, we should still possess so formidable a superiority as to impose effective deterrents upon its employment, or threat of employment, by others. Ultimately, when the essential brotherhood of man is truly embodied and expressed in a world organization with all the necessary practical safeguards to make it effective, these powers would naturally be confided to that world organization.
                 </p>
                 <p>
                     Now <person ref="#WC">I</person> come to the second danger of these two marauders which threatens the cottage, the home, 
                     and the ordinary people - namely, tyranny. We cannot be blind to the fact that the liberties enjoyed by individual citizens 
-                    throughout the <place ref="#UKE">British Empire</place> are not valid in a considerable number of countries, some of which 
+                    throughout the <place ref="#BRE">British Empire</place> are not valid in a considerable number of countries, some of which 
                     are very powerful. In these States control is enforced upon the common people by various kinds of all-embracing police governments. 
                     The power of the State is exercised without restraint, either by dictators or by compact oligarchies operating through a 
                     privileged party and a political police. It is not our duty at this time when difficulties are so numerous to interfere 
