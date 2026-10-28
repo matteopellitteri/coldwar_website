@@ -22,7 +22,8 @@
                     <orgName ref="#NATO">North Atlantic Treaty Organization (NATO)</orgName>
                 </editor>
                 <respStmt>
-
+                    <resp>This file XML/TEI was created by</resp>
+                    <persName ref="#MP">Matteo Pellitteri</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -37,22 +38,20 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                
+                <recordingStmt>
+                    <recording type="audio" dur="PT46M">
+                        <p>
+                            Recording from a speech delivered at <placeName ref="#WMC">Westminster College</placeName>, 
+                            <placeName ref="#FLT">Fulton</placeName>, <placeName ref="#MSS">Missouri</placeName>, <placeName ref="#USA">USA</placeName>
+                        </p>
+                        <date when="1946-03-05">5 March 1946</date>
+                    </recording>
+                </recordingStmt>
             </sourceDesc>
-            <!-- 
-            <recordingStmt>
-                <recording type="audio" dur="PT46M">
-                </recording>
-                <date when="1946-03-05">5 March 1946</date>
-            </recordingStmt>
-            -->
         </fileDesc>
-
-        
-
-        <profileDesc> <!-- profileDesc contiene informazioni contestuali e classificazioni relative al testo del documento -->
-            <particDesc> <!-- particDesc contiene informazioni sulle persone descritte nel documento -->
-                <listPerson>
+        <profileDesc> <!-- INFORMATION :: CONTEXTUAL AND CLASSIFICATION DATA -->
+            <particDesc> <!-- INFORMATION :: PERSON INVOLVED IN THE SPEECH -->
+                <listPerson type="persone_on_place"> <!-- PERSON :: PERSON AT THE SPEECH --> 
                     <person xml:id="WC" role="Prime Minister of the United Kingdom">
                         <persName sameAs="https://viaf.org/en/viaf/94507588">
                             <forename>Winston</forename>
@@ -81,14 +80,31 @@
                     <personGrp xml:id="AUD" role="Audience">
                         <persName> Audience </persName>
                     </personGrp>
+                </listPerson>
+                <listPerson type="cited_person"> <!-- PERSON :: CITED BUT NOT AT THE SPEECH -->
+                    <person xml:id="ST" role="Soviet Union Leader">
+                        <persName sameAs="https://viaf.org/en/viaf/101787139">
+                            <forename>Joseph</forename>
+                            <surname>Stalin</surname>
+                        </persName>
+                    </person>
                     <personGrp xml:id="ENP" role="English-speaking peoples">
                         <persName> English-speaking peoples </persName>
                     </personGrp>
                 </listPerson>
+                <listPerson> <!-- PERSON :: AUTORITY -->
+                    <person xml:id="MP" role="xml-tei_author">
+                        <persName>Matteo Pellitteri</persName>
+                    </person>
+                </listPerson>
+                <listPerson type="role_list">
+                    <person ref="USPRE" role="President of the United States">
+                        <persName>President of the United States of America</persName>
+                    </person>
+                </listPerson>
             </particDesc>
-
-            <settingDesc> <!-- settingDesc contiene  -->
-                <listPlace>
+            <settingDesc> <!-- INFORMATION :: LOCATION AND TIME OF THE SPEECH -->
+                <listPlace> <!-- PLACE :: PLACE OF THE SPEECH -->
                     <place xml:id="USA">
                         <placeName>
                             <country>United States of America</country>
@@ -102,6 +118,13 @@
                     <place xml:id="FLT">
                         <placeName>
                             <country>Fulton</country>
+                        </placeName>
+                    </place>
+                </listPlace>
+                <listPlace> <!-- PLACE :: PLACE CITED IN THE SPEECH -->
+                    <place xml:id="USA">
+                        <placeName>
+                            <country>United States of America</country>
                         </placeName>
                     </place>
                     <place xml:id="UKC">
@@ -130,6 +153,13 @@
                         </placeName>
                     </place>
                 </listPlace>
+                <listPlace> <!-- PLACE :: CONTESTUAL NOT CITED -->
+                    <place xml:id="BRU">
+                        <placeName>
+                            <country>Brussels, Belgium</country>
+                        </placeName>
+                    </place>
+                </listPlace>
                 <listOrg>
                     <org xml:id="UNO">
                         <orgname>
@@ -147,7 +177,7 @@
                         </orgName>
                     </org>
                 </listOrg>
-                <listEvent>
+                <listEvent> <!-- EVENT :: CONTESTUAL CITED -->
                     <event xml:id="WW2" when="1939-09-01/1945-09-02">
                         <eventName>Second World War</eventName>
                         <idno type="URI">https://www.wikidata.org/wiki/Q362</idno>
@@ -155,39 +185,53 @@
                 </listEvent>
             </settingDesc>
         </profileDesc>
+        <encodingDesc>
+            <p>
+                There are a lot of trascritions of Churchill's speech.
+                This one cames from NATO's website.
+            </p>
+            <!-- SET OF TRASCRIPTION CONVENTIONS
+            <trascriptionDesc> 
+            </trascriptionDesc> 
+            -->
+        </encodingDesc>
     </teiHeader>
 
-    <text>
+    <text xml:lang="en">
         <body>
             <div>
                 <p>                    
-                    <persName ref="#WC">I</persName> am glad to come to <placeName ref="#WMC">Westminster College</placeName> this afternoon, and am complimented 
-                    that <persName ref="#AUD">you</persName> should give <persName ref="#WC">me</persName> a degree. The name 
-                    <placename ref="#WMC">Westminster</placename> is somehow familiar to <persName ref="#WC">me</persName>. <persName ref="#WC">I</persName> 
-                    seem to have heard of it before. Indeed, it was at <placeName ref="#WMC">Westminster</placeName> that <personName ref="#WC">I</personName> 
+                    <speaker ref="#WC">I</speaker> am glad to come to <placeName ref="#WMC">Westminster College</placeName> this <time>afternoon</time>, 
+                    and am complimented that <persName ref="#AUD">you</persName> should give <speaker ref="#WC">me</speaker> a degree. The name 
+                    <placename ref="#WMC">Westminster</placename> is somehow familiar to <speaker ref="#WC">me</speaker>. <speaker ref="#WC">I</speaker> 
+                    seem to have heard of it before. Indeed, it was at <placeName ref="#WMC">Westminster</placeName> that <speaker ref="#WC">I</speaker> 
                     received a very large part of my education in politics, dialectic, rhetoric, and one or two other things. 
-                    In fact <personGrp ref="#PRT">we</personGrp> have both been educated at the same, or similar, or, at any rate, kindred establishments.
+                    In fact <personGrp ref="#PRT">we</personGrp> have both been educated at the same, or similar, or, at any rate, 
+                    kindred establishments.
                 </p>
                 <p>
-                    It is also an honor, perhaps almost unique, for a <person ref="#WC">private visitor</person> to be introduced to an 
-                    <personGrp ref="#AUD">academic audience</personGrp> by the <person ref="#HT">President of the United States</person>. 
-                    Amid his heavy burdens, duties, and responsibilities - unsought but not recoiled from - the <person ref="#HT">President</person> 
+                    It is also an honor, perhaps almost unique, for a <speaker ref="#WC">private visitor</speaker> to be introduced to an 
+                    <personGrp ref="#AUD">academic audience</personGrp> by the 
+                    <persName ref="#HT"><roleName ref="#USPRE">President of the United States</roleName></persName>. 
+                    Amid his heavy burdens, duties, and responsibilities - unsought but not recoiled from - the 
+                    <persName ref="#HT"><roleName ref="#USPRE">>President</roleName></persName> 
                     has traveled a thousand miles to dignify and magnify <personGrp ref="#PRT">our</personGrp> meeting here 
-                    <date when="1946-03-05">today</date> and to give <person ref="#WC">me</person> an opportunity of addressing 
+                    <date when="1946-03-05">today</date> and to give <speaker ref="#WC">me</speaker> an opportunity of addressing 
                     this kindred <placeName ref="#USA">nation</placeName>, as well as my own countrymen across the ocean, and perhaps 
-                    some other countries too. The <person ref="#HT">President</person> has told <personGrp ref="#AUD">you</personGrp> 
-                    that it is his wish, as <person ref="#WC">I</person> am sure it is <personGrp ref="#AUD">yours</personGrp>, 
-                    that <person ref="#WC">I</person> should have full liberty to give my true and faithful counsel in these 
-                    anxious and baffling times. <person ref="#WC">I</person> shall certainly avail myself of this freedom, and 
-                    feel the more right to do so because any private ambitions <person ref="#WC">I</person> may have cherished 
-                    in my younger days have been satisfied beyond my wildest dreams. Let me, however, make it clear that 
-                    <person ref="#WC">I</person> have no official mission or status of any kind, and that <person ref="#WC">I</person> 
-                    speak only for <person ref="#WC">myself</person>. There is nothing here but what <personGrp ref="#AUD">you</personGrp> 
-                    see.
-                </personGrp>
+                    some other countries too. The <persName ref="#HT"><roleName ref="#USPRE"></roleName>President</persName> 
+                    has told <personGrp ref="#AUD">you</personGrp> that it is his wish, as <speaker ref="#WC">I</speaker> 
+                    am sure it is <personGrp ref="#AUD">yours</personGrp>, that <speaker ref="#WC">I</speaker> should have 
+                    full liberty to give my true and faithful counsel in these <time>anxious and baffling times</time>. 
+                    <speaker ref="#WC">I</speaker> shall certainly avail myself of this freedom, and 
+                    feel the more right to do so because any private ambitions <speaker ref="#WC">I</speaker> may have cherished 
+                    in my <time>younger days</time> have been satisfied beyond my wildest dreams. Let <speaker ref="#WC">me</speaker>, 
+                    however, make it clear that <person ref="#WC">I</person> have no official mission or status of any kind, 
+                    and that <speaker ref="#WC">I</speaker> speak only for <speaker ref="#WC">myself</speak>. 
+                    There is nothing here but what <personGrp ref="#AUD">you</personGrp> see.
+                </p>
                 <p>
-                    <person ref="#WC">I</person> can therefore allow my mind, with the experience of a lifetime, to play over the problems which 
-                    beset us on the morrow of our absolute victory in arms, and to try to make sure with what strength <person ref="#WC">I</person> 
+                    <speaker ref="#WC">I</speaker> can therefore allow my mind, with the experience of a lifetime, to play over the problems which 
+                    beset us on the morrow of our absolute victory in arms, and to try to make sure with what strength <speaker ref="#WC">I</speaker> 
                     have that what has been gained with so much sacrifice and suffering shall be preserved for the future glory and safety of mankind.
                 </p>
                     The <placeName ref="#USA">United States</placeName> stands at this time at the pinnacle of world power. It is a solemn moment for the 
@@ -202,16 +246,59 @@
                     ourselves equal to this severe requirement.
                 </p>
                 <p>
-                    When <>American military men</> approach some serious situation they are wont to write at the head of their directive the words "over-all strategic concept." There is wisdom in this, as it leads to clarity of thought. What then is the over-all strategic concept which we should inscribe today? It is nothing less than the safety and welfare, the freedom and progress, of all the homes and families of all the men and women in all the lands. And here <person ref="#WC">I</person> speak particularly of the myriad cottage or apartment homes where the wage-earner strives amid the accidents and difficulties of life to guard his wife and children from privation and bring the family up in the fear of the Lord, or upon ethical conceptions which often play their potent part.
+                    When <personGrp ref="#USMM">American military men</personGrp> approach some serious situation <personGrp ref="#USMM">they</personGrp> 
+                    are wont to write at the head of their directive the words <quote>"over-all strategic concept."</quote>
+                    There is wisdom in this, as it leads to clarity of thought. What then is the over-all strategic concept 
+                    which we should inscribe <time>today</time>? 
+                    It is nothing less than the safety and welfare, the freedom and progress, of all the homes and families of all the men and women 
+                    in all the lands. And here <speaker ref="#WC">I</speaker> speak particularly of the myriad cottage or apartment homes 
+                    where the wage-earner strives amid the accidents and difficulties of life to guard his wife and children from privation 
+                    and bring the family up in the fear of the <>Lord</>, or upon ethical 
+                    conceptions which often play their potent part.
                 </p>
                 <p>
-                    To give security to these countless homes, <>they</> must be shielded from the two giant marauders, war and tyranny. We all know the frightful disturbances in which the ordinary family is plunged when the curse of war swoops down upon the bread-winner and those for whom he works and contrives. The awful ruin of Europe, with all its vanished glories, and of large parts of Asia glares <>us</> in the eyes. When the designs of wicked men or the aggressive urge of mighty States dissolve over large areas the frame of civilized society, humble folk are confronted with difficulties with which they cannot cope. For them all is distorted, all is broken, even ground to pulp.
+                    To give security to these countless homes, <>they</> must be shielded from the two giant marauders, 
+                    war and tyranny. <personGrp ref="#PRT">We</personGrp> all know the frightful disturbances in which 
+                    the <>ordinary family</> is plunged when the curse of war swoops down 
+                    upon the bread-winner and those for whom he works and contrives. 
+                    The awful ruin of <placeName>Europe</placeName>, with all its vanished glories, 
+                    and of large parts of <placeName>Asia</placeName> glares <>us</> in the eyes. 
+                    When the designs of wicked men or the aggressive urge of mighty States dissolve over large areas 
+                    the frame of civilized society, humble folk are confronted with difficulties with which they cannot cope. 
+                    For them all is distorted, all is broken, even ground to pulp.
                 </p>
                 <p>
-                    When <person ref="#WC">I</person> stand here this quiet afternoon <person ref="#WC">I</person> shudder to visualize what is actually happening to millions now and what is going to happen in this period when famine stalks the earth. None can compute what has been called "the unestimated sum of human pain." Our supreme task and duty is to guard the homes of the common people from the horrors and miseries of another war. We are all agreed on that.
+                    When <speaker ref="#WC">I</speaker> stand here this quiet afternoon <speaker ref="#WC">I</speaker> 
+                    shudder to visualize what is actually happening to millions now and what is going to happen in <time>this period</time>
+                    when famine stalks the earth. None can compute what has been called <quote>"the unestimated sum of human pain."</quote> 
+                    Our supreme task and duty is to guard the homes of the common people from the horrors and miseries of another war. 
+                    <personGrp ref="#PRT">We</personGrp> are all agreed on that.
                 </p>
                 <p>
-                    Our <>American military colleagues</>, after having proclaimed their <>"over-all strategic concept"</> and computed available resources, always proceed to the next step - namely, the method. Here again there is widespread agreement. A world organization has already been erected for the prime purpose of preventing war, <>UNO</>, the successor of the <>League of Nations</>, with the decisive addition of the <>United States</> and all that means, is already at work. We must make sure that its work is fruitful, that it is a reality and not a sham, that it is a force for action, and not merely a frothing of words, that it is a true temple of peace in which the shields of many nations can some day be hung up, and not merely a cockpit in a <>Tower of Babel</>. Before we cast away the solid assurances of national armaments for self-preservation we must be certain that our temple is built, not upon shifting sands or quagmires, but upon the rock. Anyone can see with his eyes open that our path will be difficult and also long, but if we persevere together as we did in the two world wars - though not, alas, in the interval between them - <person ref="#WC">I</person> cannot doubt that we shall achieve our common purpose in the end.
+                    Our <personGrp ref="#USMM">American military colleagues</personGrp>, 
+                    after having proclaimed their <quote>"over-all strategic concept"</quote> 
+                    and computed available resources, always proceed to the next 
+                    step - namely, the method. Here again there is widespread agreement. 
+                    A world organization has already been erected for the prime purpose of 
+                    preventing war, <orgName ref="#">UNO</orgName>, the successor of the 
+                    <orgName ref="#">League of Nations</orgName>, with the decisive addition 
+                    of the <placeName ref="#USA">United States</placeName> and all that means, 
+                    is already at work. <>We</> must make sure 
+                    that its work is fruitful, that it is a reality and not a sham, 
+                    that it is a force for action, and not merely a frothing of words, 
+                    that it is a true temple of peace in which the shields of many nations 
+                    can some day be hung up, and not merely a cockpit in a 
+                    <>Tower of Babel</>. 
+                    Before <>we</> cast away the solid 
+                    assurances of national armaments for self-preservation 
+                    <>we</> must be certain that our <>temple</> 
+                    is built, not upon shifting sands or quagmires, but upon the rock. 
+                    <>Anyone</> can see with his eyes open that 
+                    our path will be difficult and also long, but if <>we</> 
+                    persevere together as we did in the <>two world wars</> - 
+                    though not, alas, in the interval between them - <person ref="#WC">I</person> 
+                    cannot doubt that <>we</> shall achieve 
+                    our common purpose in the end.
                 </p>
                 <p>
                     <person ref="#WC">I</person> have, however, a definite and practical proposal to make for action. 
@@ -284,13 +371,57 @@
                     will venture to be precise. Fraternal association requires not only the growing friendship and mutual understanding between our two vast but kindred systems of society, but the continuance of the intimate relationship between our military advisers, leading to common study of potential dangers, the similarity of weapons and manuals of instructions, and to the interchange of officers and cadets at technical colleges. It should carry with it the continuance of the present facilities for mutual security by the joint use of all Naval and Air Force bases in the possession of either country all over the world. This would perhaps double the mobility of the American Navy and Air Force. It would greatly expand that of the British Empire Forces and it might well lead, if and as the world calms down, to important financial savings. Already we use together a large number of islands; more may well be entrusted to our joint care in the near future.
                 </p>
                 <p>
-                    The <>United States</> has already a <>Permanent Defense Agreement</> with the <>Dominion of Canada</>, which is so devotedly attached to the <>British Commonwealth and Empire</>. This <>Agreement</> is more effective than many of those which have often been made under formal alliances. This principle should be extended to all <>British Commonwealths</> with full reciprocity. Thus, whatever happens, and thus only, shall we be secure ourselves and able to work together for the high and simple causes that are dear to us and bode no ill to any. Eventually there may come - <person ref="#WC">I</person> feel eventually there will come - the principle of common citizenship, but that we may be content to leave to destiny, whose outstretched arm many of us can already clearly see.
+                    The <country ref="#USA">United States</country> has already a 
+                    <>Permanent Defense Agreement</> with the 
+                    <country ref="#CAN">Dominion of Canada</country>, which is so devotedly attached
+                    to the <country ref="">British Commonwealth and Empire</country>. 
+                    This <>Agreement</> is more effective than many of those which 
+                    have often been made under formal alliances. 
+                    This principle should be extended to all <country ref="">British Commonwealths</country> 
+                    with full reciprocity. 
+                    Thus, whatever happens, and thus only, shall <>we</> be secure 
+                    ourselves and able to work together for the high and simple causes that are dear 
+                    to <>us</> and bode no ill to any. 
+                    Eventually there may come - <speaker ref="#WC">I</speak> feel eventually there 
+                    will come - the principle of common citizenship, but that <>we</> 
+                    may be content to leave to destiny, whose outstretched arm many of 
+                    <>us</> can already clearly see.
                 </p>
                 <p>
-                    There is however an important question we must ask ourselves. Would a special relationship between the United States and the British Commonwealth be inconsistent with our over-riding loyalties to the World Organization? <person ref="#WC">I</person> reply that, on the contrary, it is probably the only means by which that organization will achieve its full stature and strength. There are already the special United States relations with Canada which <person ref="#WC">I</person> have just mentioned, and there are the special relations between the United States and the South American Republics. We British have our twenty years Treaty of Collaboration and Mutual Assistance with Soviet Russia. <person ref="#WC">I</person> agree with <>Mr. Bevin</>, the <>Foreign Secretary of <>Great Britain</></>, that it might well be a fifty years Treaty so far as we are concerned. We aim at nothing but mutual assistance and collaboration. The British have an alliance with <>Portugal</> unbroken since 1384, and which produced fruitful results at critical moments in the late war. None of these clash with the general interest of a world agreement, or a world organization; on the contrary they help it. <>"In my father's house are many mansions."</> Special associations between members of the United Nations which have no aggressive point against any other country, which harbor no design incompatible with the Charter of the United Nations, far from being harmful, are beneficial and, as <person ref="#WC">I</person> believe, indispensable.
+                    There is however an important question <>we</> must ask ourselves. 
+                    Would a special relationship between the <country ref="#USA">United States</country> 
+                    and the <country ref="#">British Commonwealth</country> be inconsistent with our 
+                    over-riding loyalties to the <country ref="#UNO">World Organization</country>? 
+                    <speaker ref="#WC">I</speak> reply that, on the contrary, it is probably the only 
+                    means by which that <orgName ref="#UNO">organization</orgName> will achieve 
+                    its full stature and strength. 
+                    There are already the special <country ref="#USA">United States</country> relations 
+                    with <country ref="#CAN">Canada</country> which <speaker ref="#WC">I</speaker> 
+                    have just mentioned, and there are the special relations between the 
+                    <country ref="#USA">United States</country> and the <>South American Republics</>. 
+                    <>We</> British have our twenty years <>Treaty of Collaboration and Mutual Assistance</> 
+                    with <>Soviet Russia</>. <speaker ref="#WC">I</speaker> 
+                    agree with <>Mr. Bevin</>, the 
+                    <roleName>Foreign Secretary of <country>Great Britain</country></roleName>, that it 
+                    might well be a fifty years Treaty so far as <>we</> are concerned. 
+                    <>We</> aim at nothing but mutual assistance and collaboration. 
+                    The <>British</> have an alliance with <>Portugal</> unbroken <,>since 1384</>, 
+                    and which produced fruitful results at <>critical moments</> in the 
+                    <>late war</>. None of these clash with the general interest of a 
+                    world agreement, or a world organization; on the contrary they help it. 
+                    <qoute>"In my father's house are many mansions."</qoute> Special associations 
+                    between members of the <country ref="#USA">United Nations</country> 
+                    which have no aggressive point against any other country, which harbor no design 
+                    incompatible with the <>Charter of the United Nations</>, 
+                    far from being harmful, are beneficial and, as <speaker ref="#WC">I</speaker> 
+                    believe, indispensable.
                 </p>
                 <p>
-                    <person ref="#WC">I</person> spoke earlier of the <>Temple of Peace</>. Workmen from all countries must build that temple. If two of the workmen know each other particularly well and are old friends, if their families are inter-mingled, and if they have "faith in each other's purpose, hope in each other's future and charity towards each other's shortcomings" - to quote some good words <person ref="#WC">I</person> read here the other day - why cannot they work together at the common task as friends and partners? Why cannot they share their tools and thus increase each other's working powers? Indeed they must do so or else the temple may not be built, or, being built, it may collapse, and we shall all be proved again unteachable and have to go and try to learn again for a third time in a school of war, incomparably more rigorous than that from which we have just been released. The dark ages may return, the Stone Age may return on the gleaming wings of science, and what might now shower immeasurable material blessings upon mankind, may even bring about its total destruction. Beware, <person ref="#WC">I</person> say; time may be short. Do not let us take the course of allowing events to drift along until it is too late. If there is to be a fraternal association of the kind <person ref="#WC">I</person> have described, with all the extra strength and security which both our countries can derive from it, let us make sure that that great fact is known to the world, and that it plays its part in steadying and stabilizing the foundations of peace. There is the path of wisdom. Prevention is better than cure.
+                    <speaker ref="#WC">I</speak> spoke earlier of the <>Temple of Peace</>. 
+                    <personGrp ref="#WKM">Workmen</personGrp> from all countries must build 
+                    that <>temple</>. If two of the <>workmen</> know each 
+                    other particularly well and are old friends, if their families are inter-mingled, 
+                    and if they have "faith in each other's purpose, hope in each other's future and charity towards each other's shortcomings" - to quote some good words <person ref="#WC">I</person> read here the other day - why cannot they work together at the common task as friends and partners? Why cannot they share their tools and thus increase each other's working powers? Indeed they must do so or else the temple may not be built, or, being built, it may collapse, and we shall all be proved again unteachable and have to go and try to learn again for a third time in a school of war, incomparably more rigorous than that from which we have just been released. The dark ages may return, the Stone Age may return on the gleaming wings of science, and what might now shower immeasurable material blessings upon mankind, may even bring about its total destruction. Beware, <person ref="#WC">I</person> say; time may be short. Do not let us take the course of allowing events to drift along until it is too late. If there is to be a fraternal association of the kind <person ref="#WC">I</person> have described, with all the extra strength and security which both our countries can derive from it, let us make sure that that great fact is known to the world, and that it plays its part in steadying and stabilizing the foundations of peace. There is the path of wisdom. Prevention is better than cure.
                 </p>
                 <p>
                     A shadow has fallen upon the scenes so lately lighted by the Allied victory. Nobody knows what Soviet Russia and its Communist international organization intends to do in the immediate future, or what are the limits, if any, to their expansive and proselytizing tendencies. I have a strong admiration and regard for the valiant Russian people and for my wartime comrade, Marshal Stalin. There is deep sympathy and goodwill in Britain - and <person ref="#WC">I</person> doubt not here also - towards the peoples of all the Russias and a resolve to persevere through many differences and rebuffs in establishing lasting friendships. We understand the Russian need to be secure on her western frontiers by the removal of all possibility of German aggression. We welcome Russia to her rightful place among the leading nations of the world. We welcome her flag upon the seas. Above all, we welcome constant, frequent and growing contacts between the Russian people and our own people on both sides of the Atlantic. It is my duty however, for <person ref="#WC">I</person> am sure you would wish me to state the facts as I see them to you, to place before you certain facts about the present position in Europe.
