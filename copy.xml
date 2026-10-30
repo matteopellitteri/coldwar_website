@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> <!-- WINSTON CHURCHILL, SIDENWES OF PEACE, SPEECH, 05 MARCH 1946 -->
+    <teiHeader> <!-- TEIHEADER :: BIBLIOGRAPHIC INFORMATIONS -->
+        <fileDesc> <!-- FILEDESC :: FILE DESCRIPTION -->
+            <titleStmt> <!-- TITLESTMT :: MORE BIBLIOGRAPHIC INFORMATIONS: TITLE, AUTHOR, DATE, EDITOR, ... -->
+                <title>
+                    <title type="main">The Sinews of Peace</title>
+                    <title type="sub">
+                        Speech by <persName>Winston S. Churchill</persName>, 
+                        <roleName>Prime Minister of the <placeName>United Kingdom</placeName></roleName> at the <placeName>
+                        <orgName>Westminster College</orgName>, <settlement>Fulton</settlement>, <region>Missouri</region>, <country>USA</country></placeName>
+                    </title>
+                    <date when="1946-03-05">05 March 1946</date>
+                </title>
+                <author>
+                    <persName ref="#churchill">Winston Churchill</persName>
+                </author>
+                <editor>
+                    <orgName ref="#nato">North Atlantic Treaty Organization (NATO)</orgName>
+                </editor>
+                <respStmt>
+                    <resp>This file XML/TEI was created by</resp>
+                    <persName ref="#mp">Matteo Pellitteri</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="#nato">North Atlantic Treaty Organization (NATO)</orgName>
+                </publisher>
+                <pubPlace>
+                    <placeName ref="#brussels">Brussels, Belgium</placeName>
+                </pubPlace>
+                <availability status="free" type="open_access">
+                    <p>This document is available for free and open access.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <recordingStmt>
+                    <recording type="audio" dur="PT46M">
+                        <p>
+                            Recording from a speech delivered at <placeName ref="#WMC">Westminster College</placeName>, 
+                            <placeName ref="#fulton">Fulton</placeName>, <placeName ref="#missouri">Missouri</placeName>, <placeName ref="#usa">USA</placeName>
+                        </p>
+                        <date when="1946-03-05">5 March 1946</date>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson type="person">
+                    <person xml:id="churchill" role="Prime Minister of the United Kingdom">
+                        <persName sameAs="https://viaf.org/en/viaf/94507588">
+                            <forename>Winston</forename>
+                            <forename>Leonard</forename>
+                            <forename>Spencer</forename>
+                            <surname>Churchill</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="mccluer" role="President of Westminster College">
+                        <persName sameAs="">
+                            <forename>Franc</forename>
+                            <forename>Lewis</forename>
+                            <surname>McCluer</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="truman" role="President of the United States">
+                        <persName sameAs="https://viaf.org/en/viaf/61561827">
+                            <forename>Harry</forename>
+                            <addName>S.</addName>
+                            <surname>Truman</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="stalin" role="Soviet Union Leader">
+                        <persName sameAs="https://viaf.org/en/viaf/101787139">
+                            <forename>Joseph</forename>
+                            <surname>Stalin</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="mp" role="xml-tei_author">
+                        <persName>Matteo Pellitteri</persName>
+                    </person>
+                    <person xml:id="us_pre" role="President of the United States">
+                        <roleName>President of the United States of America</roleName>
+                    </person>
+                    <person xml:id="br_pm" role="Prime Minister of the United Kingdom">
+                        <roleName>Prime Minister of the United Kingdom</roleName>
+                    </person>
+                    <person xml:id="pv" role="Private Visitor">
+                        <roleName>Private Visitor</roleName>
+                    </person>
+                    <person xml:id="bevin" role="Foreign Secretary of Great Britain">
+                        <persName>
+                            <forename>Ernest</forename>
+                            <surname>Bevin</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="tito" role="Marshal">
+                        <persName>
+                            <forename>Josip</forename>
+                            <surname>Tito</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="bourke" role="Irish-American orator">
+                        <persName>
+                            <forename>Bourke</forename>
+                            <surname>Cockran</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="lloyd_george">
+                        <persName>
+                            <forename>David</forename>
+                            <surname>Lloyd George</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="hitler">
+                        <persName>
+                            <forename>Adolf</forename>
+                            <surname>Hitler</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+                <listPerson type="person_grp">
+                    <personGrp xml:id="en_peoples" role="English-speaking peoples">
+                        <persName>English-speaking peoples</persName>
+                    </personGrp>
+                    <personGrp xml:id="brit_peoples" role="British peoples">
+                        <persName>British peoples</persName>
+                    </personGrp>
+                    <personGrp xml:id="us_military" role="American military men">
+                        <persName>American military men</persName>
+                    </personGrp>
+                    <personGrp xml:id="ordinary_people" role="Ordinary people">
+                        <persName>Ordinary people</persName>
+                    </personGrp>
+                    <personGrp xml:id="workmen" role="Workmen">
+                        <persName>Workmen</persName>
+                    </personGrp>
+                    <personGrp xml:id="russian_people" role="Russian people">
+                        <persName>Russian people</persName>
+                    </personGrp>
+                    <personGrp xml:id="french" role="French people">
+                        <persName>French</persName>
+                    </personGrp>
+                    <personGrp xml:id="germans" role="German people">
+                        <persName>Germans</persName>
+                    </personGrp>
+                    <personGrp xml:id="german_leaders" role="German leaders">
+                        <persName>German leaders</persName>
+                    </personGrp>
+                    <personGrp xml:id="american_peoples" role="American peoples">
+                        <persName>American peoples</persName>
+                    </personGrp>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="usa">
+                        <placeName><country>United States of America (USA)</country></placeName>
+                    </place>
+                    <place xml:id="missouri">
+                        <placeName><region>Missouri</region></placeName>
+                    </place>
+                    <place xml:id="fulton">
+                        <placeName><settlement>Fulton</settlement></placeName>
+                    </place>
+                    <place xml:id="uk">
+                        <placeName><country>United Kingdom</country></placeName>
+                    </place>
+                    <place xml:id="commonwealth">
+                        <placeName><bloc>Commonwealth</bloc></placeName>
+                    </place>
+                    <place xml:id="canada">
+                        <placeName><country>Dominion of Canada</country></placeName>
+                    </place>
+                    <place xml:id="ussr">
+                        <placeName><country>Union of Soviet Socialist Republics (USSR)</country></placeName>
+                    </place>
+                    <place xml:id="brussels">
+                        <placeName><settlement>Brussels</settlement></placeName>
+                    </place>
+                    <place xml:id="belgium">
+                        <placeName><country>Belgium</country></placeName>
+                    </place>
+                    <place xml:id="world">
+                        <placeName>World</placeName>
+                    </place>
+                    <place xml:id="europe">
+                        <placeName>Europe</placeName>
+                    </place>
+                    <place xml:id="asia">
+                        <placeName>Asia</placeName>
+                    </place>
+                    <place xml:id="wsm">
+                        <placeName>Westminster</placeName>
+                    </place>
+                    <place xml:id="moscow">
+                        <placeName><settlement>Moscow</settlement></placeName>
+                    </place>
+                    <place xml:id="turkey">
+                        <placeName><country>Turkey</country></placeName>
+                    </place>
+                    <place xml:id="greece">
+                        <placeName><country>Greece</country></placeName>
+                    </place>
+                    <place xml:id="athens">
+                        <placeName><settlement>Athens</settlement></placeName>
+                    </place>
+                    <place xml:id="berlin">
+                        <placeName><settlement>Berlin</settlement></placeName>
+                    </place>
+                    <place xml:id="germany">
+                        <placeName><country>Germany</country></placeName>
+                    </place>
+                    <place xml:id="persia">
+                        <placeName><country>Persia</country></placeName>
+                    </place>
+                    <place xml:id="italy">
+                        <placeName><country>Italy</country></placeName>
+                    </place>
+                    <place xml:id="france">
+                        <placeName><country>France</country></placeName>
+                    </place>
+                    <place xml:id="portugal">
+                        <placeName><country>Portugal</country></placeName>
+                    </place>
+                    <place xml:id="china">
+                        <placeName><country>China</country></placeName>
+                    </place>
+                    <place xml:id="russian">
+                        <placeName><country>Russia</country></placeName>
+                    </place>
+                    <place xml:id="atlantic">
+                        <placeName><geogName>Atlantic Ocean</geogName></placeName>
+                    </place>
+                    <place xml:id="stettin">
+                        <placeName><settlement>Stettin</settlement></placeName>
+                    </place>
+                    <place xml:id="trieste">
+                        <placeName><settlement>Trieste</settlement></placeName>
+                    </place>
+                    <place xml:id="baltic">
+                        <placeName><geogName>Baltic Sea</geogName></placeName>
+                    </place>
+                    <place xml:id="adriatic">
+                        <placeName><geogName>Adriatic Sea</geogName></placeName>
+                    </place>
+                    <place xml:id="warsaw">
+                        <placeName><settlement>Warsaw</settlement></placeName>
+                    </place>
+                    <place xml:id="prague">
+                        <placeName><settlement>Prague</settlement></placeName>
+                    </place>
+                    <place xml:id="vienna">
+                        <placeName><settlement>Vienna</settlement></placeName>
+                    </place>
+                    <place xml:id="budapest">
+                        <placeName><settlement>Budapest</settlement></placeName>
+                    </place>
+                    <place xml:id="belgrade">
+                        <placeName><settlement>Belgrade</settlement></placeName>
+                    </place>
+                    <place xml:id="bucharest">
+                        <placeName><settlement>Bucharest</settlement></placeName>
+                    </place>
+                    <place xml:id="sofia">
+                        <placeName><settlement>Sofia</settlement></placeName>
+                    </place>
+                    <place xml:id="far_east">
+                        <placeName><region>Far East</region></placeName>
+                    </place>
+                    <place xml:id="manchuria">
+                        <placeName><region>Manchuria</region></placeName>
+                    </place>
+                    <place xml:id="yalta">
+                        <placeName><settlement>Yalta</settlement></placeName>
+                    </place>
+                    <place xml:id="versailles">
+                        <placeName><settlement>Versailles</settlement></placeName>
+                    </place>
+                    <place xml:id="soviet_bloc">
+                        <placeName><bloc>Soviet sphere</bloc></placeName>
+                    </place>
+                    <place xml:id="poland">
+                        <placeName><country>Poland</country></placeName>
+                    </place>
+                    <place xml:id="czechoslovakia">
+                        <placeName><country>Czechoslovakia</country></placeName>
+                    </place>
+                    <place xml:id="british_american_zones">
+                        <placeName type="military_zone">British and American zones</placeName>
+                    </place>
+                </listPlace>
+                <listOrg>
+                    <org xml:id="uno">
+                        <orgName>United Nations Organization (UNO)</orgName>
+                    </org>
+                    <org xml:id="wmc">
+                        <orgName>Westminster College</orgName>
+                    </org>
+                    <org xml:id="nato">
+                        <orgName>North Atlantic Treaty Organization (NATO)</orgName>
+                    </org>
+                    <org xml:id="league_of_nations">
+                        <orgName>League of Nations</orgName>
+                    </org>
+                    <org xml:id="educational_institution">
+                        <orgName type="educational_body">Educational Institution</orgName>
+                    </org>
+                    <org xml:id="political_party">
+                        <orgName type="political_group">Political Party</orgName>
+                    </org>
+                    <org xml:id="british_parliament">
+                        <orgName type="political_body">British Parliament</orgName>
+                    </org>
+                    <org xml:id="british_empire">
+                        <orgName type="political_bloc">British Empire</orgName>
+                    </org>
+                    <org xml:id="allied">
+                        <orgName>Allied powers</orgName>
+                    </org>
+                    <org xml:id="communist_international">
+                        <orgName>Communist international organization</orgName>
+                    </org>
+                    <org xml:id="polish_government">
+                        <orgName type="government">Russian-dominated Polish Government</orgName>
+                    </org>
+                    <org xml:id="it_com_party">
+                        <orgName type="political_party">Communist Party of Italy</orgName>
+                    </org>
+                    <org xml:id="communist_party">
+                        <orgName type="political_party">Communist parties</orgName>
+                    </org>
+                    <org xml:id="soviet_government">
+                        <orgName type="government">Soviet Government</orgName>
+                    </org>
+                    <org xml:id="communist_center">
+                        <orgName>Communist center</orgName>
+                    </org>
+                    <org xml:id="foreign_secretary">
+                        <orgName>Office of the Foreign Secretary</orgName>
+                    </org>
+                    <org xml:id="western_democracies">
+                        <orgName type="political_bloc">Western Democracies</orgName>
+                    </org>
+                    <org xml:id="communist_fifth_columns">
+                        <orgName type="political_group">Communist fifth columns</orgName>
+                    </org>
+                    <org xml:id="south_amer_reps">
+                        <orgName type="political_bloc">South American Republics</orgName>
+                    </org>
+                    <org xml:id="american_british_armies">
+                        <orgName>American and British Armies</orgName>
+                    </org>
+                    <org xml:id="american_navy_air_force">
+                        <orgName>American Navy and Air Force</orgName>
+                    </org>
+                    <org xml:id="british_empire_forces">
+                        <orgName>British Empire Forces</orgName>
+                    </org>
+                    <org xml:id="naval_air_force">
+                        <orgName>Naval and Air Force</orgName>
+                    </org>
+                </listOrg>
+                <listEvent>
+                    <event xml:id="second_world_war" when="1939-09-01/1945-09-02">
+                        <eventName>Second World War</eventName>
+                        <idno type="URI">https://www.wikidata.org/wiki/Q362</idno>
+                    </event>
+                    <event xml:id="allied_victory" when="1945-05-08">
+                        <eventName>Allies Victory</eventName>
+                        <idno type="URI">https://www.wikidata.org/wiki/Q178561</idno>
+                    </event>
+                    <event xml:id="first_world_war" when="1914-07-28/1918-11-11">
+                        <eventName>First World War</eventName>
+                        <idno type="URI">https://www.wikidata.org/wiki/Q361</idno>
+                    </event>
+                    <event xml:id="yalta_agreement" when="1945-02-04/1945-02-11">
+                        <eventName>Yalta Agreement</eventName>
+                    </event>
+                    <event xml:id="versailles_treaty" when="1919-06-28">
+                        <eventName>Versailles Treaty</eventName>
+                    </event>
+                    <event xml:id="anglo_soviet_treaty">
+                        <eventName>Treaty of Collaboration and Mutual Assistance</eventName>
+                    </event>
+                </listEvent>
+            </settingDesc>
+        </profileDesc>
+        <encodingDesc>
+            <p>
+                There are a lot of trascritions of Churchill's speech.
+                This one cames from NATO's website.
+            </p>
+        </encodingDesc>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <head>
+                <title>
+                    <title>The Sinews of Peace</title>
+                    <title>
+                        Speech by <persName ref="#churchill">Winston S. Churchill</persName>, <roleName roleName="#br_pm">Prime Minister of the <country ref="#uk">United Kingdom
+                        </country></roleName> at the <placeName><orgName ref="#wmc">Westminster College</orgName>, <settlement ref="#fulton">Fulton</settlement>, <region 
+                        ref="#missouri">Missouri</region>, <country ref="#usa">USA</country></placeName>
+                    </title>
+                    <dateline><date>05 March 1946</date></dateline>
+                    <p>21 <abbr>MIN</abbr> READ</p>
+                </title>
+            </head>
+            <div>
+                <p>
+                    <lb/> I am glad to come to <orgName type="educational_body" ref="#wmc">Westminster College</orgName> this <time>afternoon</time>, and am complimented that 
+                    you should give <lb/> me a degree. The name <q><placeName ref="#wsm">"Westminster"</placeName></q> is somehow familiar to me. I seem to have heard of it before.
+                    <lb/> Indeed, it was at <placeName type="political_body" ref="#wsm">Westminster</placeName> that I received a very large part of my education in politics, 
+                    dialectic,<lb/> rhetoric, and one or two other things. In fact we have both been educated at the same, or similar, or, at <lb/> any rate, kindred establishments.
+                </p>
+                <p>
+                    <lb/> It is also an honor, perhaps almost unique, for a <roleName ref="#pv">private visitor</roleName> to be introduced to an academic <lb/> audience by the 
+                    <persName ref="#truman"><roleName ref="#us_pre">President of the <country ref="#usa">United States</country></roleName></persName>. Amid his heavy burdens, 
+                    duties, and responsibilities - <lb/> unsought but not recoiled from - the <persName ref="#truman"><roleName ref="#us_pre">President</roleName></persName> has 
+                    traveled a thousand miles to dignify and magnify <lb/> our meeting here <date when="1946-03-05">today</date> and to give me an opportunity of addressing this 
+                    kindred nation, as well as my <lb/> own <personGrp ref="#brit_peoples">countrymen</personGrp> across the ocean, and perhaps some other countries too. The 
+                    <persName ref="#truman"><roleName ref="#us_pre">President</roleName></persName> has told you <lb/> that it is his wish, as I am sure it is yours, that I should 
+                    have full liberty to give my true and faithful <lb/> counsel in these anxious and baffling times. I shall certainly avail myself of this freedom, and feel the
+                    <lb/> more right to do so because any private ambitions I may have cherished in my <date>younger days</date> have been <lb/> satisfied beyond my wildest dreams. 
+                    Let me, however, make it clear that I have no official mission or <lb/> status of any kind, and that I speak only for myself. There is nothing here but what you 
+                    see.
+                </p>
+                <p>
+                    <lb/> I can therefore allow my mind, with the experience of a lifetime, to play over the problems which beset <lb/> us on the morrow of our absolute <eventName 
+                    ref="#allied_victory" when="1945-05-08">victory in arms</eventName>, and to try to make sure with what strength I have <lb/> that what has been gained with so
+                    much sacrifice and suffering shall be preserved for the future glory <lb/> and safety of <rs type="concept">mankind</rs>.
+                </p>
+                <p>
+                    <lb/> The <country ref="#usa">United States</country> stands at this time at the pinnacle of world power. It is a solemn moment for the <lb/> <rs type="concept">
+                    American Democracy</rs>. For with primacy in power is also joined an awe-inspiring accountability to the <lb/> future. If you look around you, you must feel not 
+                    only the <rs type="concept">sense of duty</rs> done but also you must feel <lb/> anxiety lest you fall below the level of achievement. Opportunity is here now, 
+                    clear and shining for <lb/> both our <ref ref="#usa #uk">countries</ref>. To reject it or ignore it or fritter it away will bring upon us all the long reproaches 
+                    of <lb/> the after-time. It is necessary that constancy of mind, persistency of purpose, and the grand simplicity <lb/> of decision shall guide and rule the 
+                    conduct of the <personGrp ref="#en_peoples">English-speaking peoples</personGrp> in peace as they did in <lb/> war. We must, and I believe we shall,
+                    prove ourselves equal to this severe requirement.
+                </p>
+                <p>
+                    <lb/> When <personGrp type="military" ref="#us_military">American military men</personGrp> approach some serious situation they are wont to write at the head of 
+                    <lb/> their directive the words <q>"over-all strategic concept."</q> There is wisdom in this, as it leads to clarity of <lb/> thought. What then is the over-all 
+                    strategic concept which we should inscribe today? It is nothing less <lb/> than the safety and welfare, the freedom and progress, of all the homes and families 
+                    of all the men and <lb/> women in all the lands. And here I speak particularly of the myriad cottage or apartment homes where <lb/> the wage-earner strives amid 
+                    the accidents and difficulties of life to guard his wife and children from <lb/> privation and bring the family up in the fear of the <name type="deity">Lord</name>, 
+                    or upon ethical conceptions which often play <lb/> their potent part.
+                </p>
+                <p>
+                    <lb/> To give security to these countless homes, they must be shielded from the two giant marauders, war <lb/> and tyranny. We all know the frightful disturbances 
+                    in which the ordinary family is plunged when the <lb/> curse of war swoops down upon the bread-winner and those for whom he works and contrives. The <lb/> awful 
+                    ruin of <placeName ref="#europe" type="continent">Europe</placeName>, with all its vanished glories, and of large parts of <placeName ref="#asia" type="continent">
+                    Asia</placeName> glares us in the eyes. When <lb/> the designs of wicked men or the aggressive urge of mighty States dissolve over large areas the frame <lb/> of 
+                    civilized society, humble folk are confronted with difficulties with which they cannot cope. For them <lb/> all is distorted, all is broken, even ground to pulp.
+                </p>
+                <p>
+                    <lb/> When I stand here this <time>quiet afternoon</time> I shudder to visualize what is actually happening to millions <lb/> now and what is going to happen in 
+                    <date notBefore="1945" notAfter="1946">this period</date> when famine stalks the earth. None can compute what <lb/> has been called <quote>"the unestimated sum 
+                    of human pain."</quote> Our supreme task and duty is to guard the <lb/> homes of the common people from the horrors and miseries of another war. We are all agreed 
+                    on that.
+                </p>
+                <p>
+                    <lb/> Our <personGrp type="military" ref="#us_military">American military colleagues</personGrp>, after having proclaimed their <q>"over-all strategic concept"</q> 
+                    and <lb/> computed available resources, always proceed to the next step - namely, the method. Here again there <lb/> is widespread agreement. A <orgName 
+                    type="world_organization" ref="#uno">world organization</orgName> has already been erected for the prime purpose of <lb/> preventing war, <orgName 
+                    type="world_organization" ref="#uno">UNO</orgName>, the successor of the <orgName type="world_organization" ref="#league_of_nations">League of Nations</orgName>, 
+                    with the decisive addition of the <country ref="#usa">United <lb/> States</country> and all that means, is already at work. We must make sure that its
+                    work is fruitful, that it is a <lb/> reality and not a sham, that it is a force for action, and not merely a frothing of words, that it is a true <lb/> <note 
+                    xml:id="note-01">temple of peace</note> in which the shields of many nations can some day be hung up, and not merely a <lb/> cockpit in a <rs type="allusion">
+                    Tower of Babel</rs>. Before we cast away the solid assurances of national armaments for self- <lb/> preservation we must be certain that our temple is built, 
+                    not upon shifting sands or quagmires, but <lb/> upon the rock. Anyone can see with his eyes open that our path will be difficult and also long, but if we <lb/> 
+                    persevere together as we did in the <eventName type="world_war" ref="#second_world_war #first_world_war">two world wars</eventName> - though not, alas, in the 
+                    interval between them - I <lb/> cannot doubt that we shall achieve our common purpose in the end.
+                </p>
+                <p>
+                    <lb/> I have, however, a definite and practical proposal to make for action. Courts and magistrates may be <lb/> set up but they cannot function without sheriffs 
+                    and constables. The <orgName type="world_organization" ref="#uno">United Nations Organization</orgName> must <lb/> immediately begin to be equipped with an 
+                    international armed force. In such a matter we can only go <lb/> step by step, but we must begin now. I propose that each of the Powers and States should be 
+                    invited to <lb/> delegate a certain number of air squadrons to the service of the <orgName type="world_organization" ref="#uno">world organization</orgName>. 
+                    These squadrons <lb/> would be trained and prepared in their own countries, but would move around in rotation from one <lb/> country to another. They would wear 
+                    the uniform of their own countries but with different badges. <lb/> They would not be required to act against their own nation, but in other respects they would be 
+                    <lb/> directed by the <orgName type="world_organization" ref="#uno">world organization</orgName>. This might be started on a modest scale and would grow as <lb/> 
+                    confidence grew. I wished to see this done after the <eventName type="world_war" ref="#first_world_war">First World War</eventName>, and I devoutly trust it may 
+                    be done <lb/> forthwith.
+                </p>
+                <p>
+                    <lb/> It would nevertheless be wrong and imprudent to entrust the secret knowledge or experience of the <lb/> <name type="weapon">atomic bomb</name>, which the 
+                    <country ref="#usa">United States</country>, <country ref="#uk">Great Britain</country>, and <country ref="#canada">Canada</country> now share, to the <orgName 
+                    type="world_organization" ref="#uno">world <lb/> organization</orgName>, while it is still in its infancy. It would be criminal madness to cast it adrift in this 
+                    still <lb/> agitated and un-united world. No one in any country has slept less well in their beds because this <lb/> knowledge and the method and the raw materials 
+                    to apply it, are at present largely retained in <lb/> American hands. I do not believe we should all have slept so soundly had the positions been reversed <lb/> 
+                    and if some <rs type="political_ideology">Communist</rs> or <rs type="political_ideology">neo-Fascist</rs> State monopolized for the time being these dread agencies. 
+                    The <lb/> fear of them alone might easily have been used to enforce <rs type="policy">totalitarian</rs> systems upon the <bloc type="political_bloc" 
+                    ref="#western_democracies">free <lb/> democratic world</bloc>, with consequences appalling to human imagination. <name type="deity">God</name> has willed that this 
+                    shall <lb/> not be and we have at least a breathing space to set our house in order before this peril has to be <lb/> encountered: and even then, if no effort 
+                    is spared, we should still possess so formidable a superiority <lb/> as to impose effective deterrents upon its employment, or threat of employment, by others. 
+                    <lb/> Ultimately, when the essential brotherhood of man is truly embodied and expressed in a <orgName type="world_organization" ref="#uno">world <lb/> organization
+                    </orgName> with all the necessary practical safeguards to make it effective, these powers would <lb/> naturally be confided to that <orgName 
+                    type="world_organization" ref="#uno">world organization</orgName>.
+                </p>
+                <p>
+                    <lb/> Now I come to the second danger of these two marauders which threatens the cottage, the home, and the <lb/> <personGrp ref="#ordinary_people">ordinary 
+                    people</personGrp> - namely, tyranny. We cannot be blind to the fact that the liberties enjoyed by <lb/> individual citizens throughout the <bloc 
+                    type="political_bloc" ref="#british_empire">British Empire</bloc> are not valid in a considerable number of countries, <lb/> some of which are very powerful. 
+                    In these States control is enforced upon the common people by <lb/> various kinds of all-embracing police governments. The power of the State is exercised without 
+                    <lb/> restraint, either by dictators or by compact oligarchies operating through a privileged party and a <lb/> political police. It is not our duty at this time 
+                    when difficulties are so numerous to interfere forcibly in <lb/> the internal affairs of countries which we have not conquered in war. But we must never cease to 
+                    <lb/> proclaim in fearless tones the great principles of freedom and the rights of man which are the joint <lb/> inheritance of the <personGrp 
+                    ref="#en_peoples">English-speaking world</personGrp> and which through <ref type="document">Magna Carta</ref>, the <ref type="document">Bill of
+                    Rights</ref>, the <lb/> <ref type="right">Habeas Corpus</ref>, <ref type="right">trial by jury</ref>, and the <ref type="right">English common law</ref> find 
+                    their most famous expression in the <lb/> <ref type="document">American Declaration of Independence</ref>.
+                </p>
+                <p>
+                    <lb/> All this means that the people of any country have the right, and should have the power by <lb/> constitutional action, by free unfettered elections, with 
+                    secret ballot, to choose or change the <lb/> character or form of government under which they dwell; that freedom of speech and thought should <lb/> reign; that 
+                    courts of justice, independent of the executive, unbiased by any party, should administer ù<lb/> laws which have received the broad assent of large majorities or 
+                    are consecrated by time and custom. <lb/> Here are the title deeds of freedom which should lie in every cottage home. Here is the message of the <lb/> <personGrp 
+                    ref="#brit_peoples #american_peoples"><nationality type="british">British</nationality> and <nationality type="american">American</nationality> peoples
+                    </personGrp> to mankind. Let us preach what we practice - let us practice - what we <lb/> preach.
+                </p>
+                <p>
+                    <lb/> I have now stated the two great dangers which menace the homes of the people: War and Tyranny. I <lb/> have not yet spoken of poverty and privation which 
+                    are in many cases the prevailing anxiety. But if the <lb/> dangers of war and tyranny are removed, there is no doubt that science and co-operation can bring in 
+                    <lb/> the next few years to the world, certainly in the next few decades newly taught in the sharpening <lb/> school of war, an expansion of material well-being 
+                    beyond anything that has yet occurred in human <lb/> experience. Now, at this sad and breathless moment, we are plunged in the hunger and distress which <lb/> are 
+                    the aftermath of our stupendous struggle; but this will pass and may pass quickly, and there is no <lb/> reason except human folly or sub-human crime which should 
+                    deny to all the nations the inauguration <lb/> and enjoyment of an age of plenty. I have often used words which I learned <date>fifty years ago</date> from a great 
+                    <lb/> <roleName><nationality type="irish-american">Irish-American</nationality>orator</roleName>, a friend of mine, <persName ref="#bourke"><addName>Mr.</addName> 
+                    Bourke Cockran</persName>. <q>"There is enough for all. The earth is a <lb/> generous mother; she will provide in plentiful abundance food for all her children if 
+                    they will but <lb/> cultivate her soil in justice and in peace."</q> So far I feel that we are in full agreement. Now, while still <lb/> pursuing the method of 
+                    realizing our overall strategic concept, I come to the crux of what I have <lb/> traveled here to say. Neither the sure prevention of war, nor the continuous rise 
+                    of <orgName type="world_organization">world organization</orgName> <lb/> will be gained without what I have called the fraternal association of the <personGrp 
+                    ref="#english-speaking_peoples">English-speaking peoples</personGrp>. <lb/> This means a special relationship between the <orgName type="empire" 
+                    ref="#british_empire"><bloc type="political_bloc" ref="#commonwealth"><nationality type="british">British</nationality> Commonwealth</bloc> and Empire</orgName> 
+                    and the <country ref="#usa">United <lb/> States </country>. This is no time for generalities, and I will venture to be precise. Fraternal association requires 
+                    <lb/> not only the growing friendship and mutual understanding between our two vast but kindred systems <lb/> of society, but the continuance of the intimate 
+                    relationship between our military advisers, leading to <lb/> common study of potential dangers, the similarity of weapons and manuals of instructions, and to the 
+                    <lb/> interchange of officers and cadets at technical colleges. It should carry with it the continuance of the <lb/> present facilities for mutual security by the 
+                    joint use of all <orgName type="military" ref="#naval_air_force">Naval and Air Force</orgName> bases in the possession <lb/> of either country all over the world. 
+                    This would perhaps double the mobility of the <orgName type="military" ref="#american_navy">American Navy</orgName> and <orgName type="military" ref="#american_air_force">
+                    Air Force</orgName>. It would greatly expand that of the <orgName type="military" ref="#british_military">British Empire Forces</orgName> and it might well lead, if and 
+                    as the <lb/> world calms down, to important financial savings. Already we use together a large number of islands; <lb/> more may well be entrusted to our joint care in 
+                    the near future.
+                </p>
+                <p>
+                    <lb/> The <country ref="#usa">United States</country> has already a <name type="treaty" xml:id="tr-01">Permanent Defense Agreement</name> with the <country ref="#canada">
+                    Dominion of Canada</country>, which is <lb/> so devotedly attached to the <orgName type="empire" ref="#british_empire"><bloc type="political_bloc" ref="#commonwealth">
+                    <nationality type="british">British</nationality>Commonwealth</bloc> and Empire</orgName>. This <ref ref="#tr-01">Agreement</ref> is more effective <lb/> than many of those 
+                    which have often been made under formal alliances. This principle should be <lb/> extended to all <bloc ref="#commonwealth">British Commonwealths</bloc> with full reciprocity. 
+                    Thus, whatever happens, and thus only, <lb/> shall we be secure ourselves and able to work together for the high and simple causes that are dear to <lb/> us and bode no ill 
+                    to any. Eventually there may come - I feel eventually there will come - the principle <lb/> of common citizenship, but that we may be content to leave to destiny, whose 
+                    outstretched arm many <lb/> of us can already clearly see.
+                </p>
+                <p>
+                    <lb/> There is however an important question we must ask ourselves. Would a special relationship between <lb/> the <country ref="#usa">United States</country> and 
+                    the <bloc ref="#commonwealth">British Commonwealth</bloc> be inconsistent with our over-riding loyalties to the <lb/> <orgName type="world_organization" ref="#uno">
+                    World Organization</orgName>? I reply that, on the contrary, it is probably the only means by which that <lb/> organization will achieve its full stature and 
+                    strength. There are already the special <country ref="#usa">United States</country> <lb/> relations with <country ref="#canada">Canada</country> which I have just 
+                    mentioned, and there are the special relations between the <lb/> <country ref="#usa">United States</country> and the <bloc ref="#south_amer_reps">South American 
+                    Republics</bloc>. We British have our <date>twenty years</date> <name type="treaty">Treaty of <lb/> Collaboration and Mutual Assistance</name> with <country 
+                    ref="#ussr">Soviet Russia</country>. I agree with <persName ref="#bevin"><addName>Mr.</addName> Bevin</persName>, the <roleName type="official" 
+                    ref="#foreign_secretary">Foreign Secretary of <lb/> <country ref="#uk">Great Britain</country></roleName>, that it might well be a <date>fifty years</date> Treaty 
+                    so far as we are concerned. We aim at nothing but <lb/> mutual assistance and collaboration. The British have an alliance with <country ref="#portugal">Portugal
+                    </country> unbroken since <date when="1384">1384</date>, <lb/> and which produced fruitful results at critical moments in the late war. None of these clash with 
+                    the <lb/> general interest of a world agreement, or a world organization; on the contrary they help it. <q>"In my <lb/> father's house are many mansions."</q> 
+                    Special associations between members of the <orgName type="world_organization" ref="#uno">United Nations</orgName> <lb/> which have no aggressive point against 
+                    any other country, which harbor no design incompatible with <lb/> the <name xml:id="uno_charter">Charter of the <orgName type="world_organization" ref="#uno">
+                    United Nations</orgName></name>, far from being harmful, are beneficial and, as I believe, <lb/> indispensable.
+                </p>
+                <p>
+                    <lb/> I spoke earlier of the <rs ref="#note-01">Temple of Peace</rs>. <personGrp ref="#workmen"><roleName type="occupation">Workmen</roleName></personGrp> from 
+                    all countries must build that temple. If two of the <lb/> <personGrp ref="#workmen"><roleName type="occupation">workmen</roleName></personGrp> know each other 
+                    particularly well and are old friends, if their families are inter-mingled, and <lb/> if they have <q>"faith in each other's purpose, hope in each other's 
+                    future and charity towards each other's <lb/> shortcomings"</q> - to quote some good words I read here the other day - why cannot they work together <lb/> at the 
+                    common task as friends and partners? Why cannot they share their tools and thus increase each <lb/> other's working powers? Indeed they must do so or else the 
+                    <rs ref="#note-01">temple</rs> may not be built, or, being built, it <lb/> may collapse, and we shall all be proved again unteachable and have to go and try to 
+                    learn again for a <lb/> third time in a school of war, incomparably more rigorous than that from which we have just been <lb/> released. The dark ages may return, 
+                    the Stone Age may return on the gleaming wings of science, and <lb/> what might now shower immeasurable material blessings upon mankind, may even bring about its 
+                    <lb/> total destruction. Beware, I say; time may be short. Do not let us take the course of allowing events to <lb/> drift along until it is too late. If there is 
+                    to be a fraternal association of the kind I have described, with all <lb/> the extra strength and security which both our countries can derive from it, let us make 
+                    sure that that <lb/> great fact is known to the world, and that it plays its part in steadying and stabilizing the foundations <lb/> of peace. There is the path of 
+                    wisdom. Prevention is better than cure.
+                </p>
+                <p>
+                    <lb/> A shadow has fallen upon the scenes so lately lighted by the <eventName ref="#allied_victory"><orgName ref="#allied">Allied</orgName> victory</eventName>. 
+                    Nobody knows what <country ref="#ussr">Soviet <lb/> Russia</country> and its <orgName type="world_organization" ref="#communist_international">Communist 
+                    international organization</orgName> intends to do in the immediate future, or what <lb/> are the limits, if any, to their expansive and proselytizing tendencies. 
+                    I have a strong admiration and <lb/> regard for the valiant <personGrp ref="#russian_people"><nationality ref="#russian">Russian</nationality> people</personGrp> 
+                    and for my wartime comrade, <persName ref="#stalin"><roleName type="military_rank">Marshal</roleName> Stalin</persName>. There is deep <lb/> sympathy and goodwill 
+                    in <country ref="#uk">Britain</country> - and I doubt not here also - towards the peoples of all the <personGrp ref="#russian_people">Russias</personGrp> <lb/> 
+                    and a resolve to persevere through many differences and rebuffs in establishing lasting friendships. We <lb/> understand the Russian need to be secure on her 
+                    western frontiers by the removal of all possibility of <lb/> German aggression. We welcome <country ref="#ussr">Russia</country> to her rightful place among the 
+                    leading nations of the world. <lb/> We welcome her flag upon the seas. Above all, we welcome constant, frequent and growing contacts <lb/> between the <personGrp 
+                    ref="#russian_people"><nationality ref="#russian">Russian</nationality> people</personGrp> and our own people on both sides of the <placeName ref="#atlantic">
+                    Atlantic</placeName>. It is my duty however, <lb/> for I am sure you would wish me to state the facts as I see them to you, to place before you certain facts 
+                    <lb/> about the present position in <placeName ref="#europe">Europe</placeName>.
+                </p>
+                <p>
+                    <lb/> From <settlement ref="#stettin">Stettin</settlement> in the <placeName ref="#baltic">Baltic</placeName> to <settlement ref="#trieste">Trieste</settlement> 
+                    in the <placeName ref="#adriatic">Adriatic</placeName>, an <name type="historical term">iron curtain</name> has descended across the <placeName ref="#europe">
+                    Continent</placeName>. <lb/> Behind that line lie all the capitals of the ancient states of Central and Eastern Europe. <settlement ref="#warsaw">Warsaw
+                    </settlement>, <settlement ref="#berlin">Berlin</settlement>, <lb/> <settlement ref="#prague">Prague</settlement>, <settlement ref="#vienna">Vienna</settlement>, 
+                    <settlement ref="#budapest">Budapest</settlement>, <settlement ref="#belgrade">Belgrade</settlement>, <settlement ref="#bucharest">Bucharest</settlement> and 
+                    <settlement ref="#sofia">Sofia</settlement>, all these famous cities and the populations <lb/> around them lie in what I must call the <bloc ref="#soviet_bloc">
+                    Soviet sphere</bloc>, and all are subject in one form or another, not <lb/> only to Soviet influence but to a very high and, in many cases, increasing measure 
+                    of control from <lb/> <settlement ref="#moscow">Moscow</settlement>. <settlement ref="#athens">Athens</settlement> alone - <country ref="#greece">Greece</country> 
+                    with its immortal glories - is free to decide its future at an election <lb/>                     under <personGrp ref="#brit_peoples">British</personGrp>, <personGrp ref="#american_peoples">
+                    American</personGrp> and <personGrp ref="#french">French</personGrp> observation. The <orgName type="government" ref="#polish_government">Russian-dominated 
+                    Polish Government</orgName> has been <lb/> encouraged to make enormous and wrongful inroads upon <placeName ref="#germany">Germany</placeName>, and mass 
+                    expulsions of millions <lb/> of <personGrp ref="#germans">Germans</personGrp> on a scale grievous and undreamed-of are now taking place. The <orgName type="political_party" 
+                    ref="#communist_party">Communist parties</orgName>, <lb/> which were very small in all these <bloc type="region">Eastern States of <placeName ref="#europe">Europe
+                    </placeName></bloc>, have been raised to pre-eminence and <lb/> power far beyond their numbers and are seeking everywhere to obtain totalitarian control. 
+                    Police <lb/> governments are prevailing in nearly every case, and so far, except in Czechoslovakia, there is no true <lb/> democracy. <country ref="#turkey">
+                    Turkey</country> and <country ref="#persia">Persia</country> are both profoundly alarmed and disturbed at the claims which are <lb/> being made upon them and 
+                    at the pressure being exerted by the <settlement ref="#moscow">Moscow</settlement> <orgName type="government">Government</orgName>. An attempt is <lb/> being 
+                    made by the Russians in <settlement ref="#berlin">Berlin</settlement> to build up a quasi-Communist party in their zone of Occupied <lb/> <country ref="#germany">
+                    Germany</country> by showing special favors to groups of left-wing <personGrp ref="#german_leaders">German leaders</personGrp>. At the end of the fighting <lb/> 
+                    <date when="1945-06">last June</date>, the <orgName>American and British Armies</orgName> withdrew westwards, in accordance with an earlier <lb/> agreement, to a 
+                    depth at some points of 150 miles upon a front of nearly four hundred miles, in order <lb/> to allow our Russian allies to occupy this vast expanse of territory 
+                    which the <bloc type="political_bloc" ref="#western_democracies">Western Democracies</bloc> had <lb/> conquered.
+                </p>
+                <p>
+                    <lb/> If now the <orgName type="government" ref="#soviet_government">Soviet Government</orgName> tries, by separate action, to build up a <name type="political_ideology" 
+                    ref="#pro_communist">pro-Communist</name> <country ref="#germany">Germany</country> in their ù<lb/> areas, this will cause new serious difficulties in the 
+                    <placeName type="military_zone" ref="#british_american_zones">British and American zones</placeName>, and will give the <lb/> defeated <personGrp ref="#germans">
+                    Germans</personGrp> the power of putting themselves up to auction between the <persongGrp>Soviets</persongGrp> and the <bloc type="political_bloc" 
+                    ref="#western_democracies"> <lb/> Democracies</bloc>. Whatever conclusions may be drawn from these facts - and facts they are - this is <lb/> certainly not the 
+                    Liberated <placeName ref="#europe">Europe</placeName> we fought to build up. Nor is it one which contains the essentials of <lb/> permanent peace.
+                </p>
+                <p>
+                    <lb/> The safety of the world requires a new unity in <placeName ref="#europe">Europe</placeName>, from which no nation should be permanently <lb/> outcast. It is 
+                    from the quarrels of the strong parent races in <placeName ref="#europe">Europe</placeName> that the <eventName ref="#second_world_war #first_world_war">world wars
+                    </eventName> we have <lb/> witnessed, or which occurred in former times, have sprung. Twice in our own lifetime we have seen the <lb/> <country ref="#usa">United 
+                    States</country>, against their wishes and their traditions, against arguments, the force of which it is <lb/> impossible not to comprehend, drawn by irresistible 
+                    forces, into these wars in time to secure the <lb/> victory of the good cause, but only after frightful slaughter and devastation had occurred. Twice the <lb/> 
+                    <country ref="#usa">United States</country> has had to send several millions of its young men across the <placeName type="ocean" ref="#atlantic">Atlantic</placeName> 
+                    <lb/> to find the war; but <lb/> now war can find any nation, wherever it may dwell between dusk and dawn. Surely we should work <lb/> with conscious purpose for 
+                    a grand pacification of Europe, within the structure of the <orgName type="world_organization" ref="#uno">United Nations</orgName> <lb/> and in accordance with 
+                    its <name ref="#uno_charter">Charter</name>. That I feel is an open cause of policy of very great importance .
+                </p>
+                <p>
+                    <lb/> In front of the <name type="historical term">iron curtain</name> which lies across <placeName ref="#europe">Europe</placeName> are other causes for anxiety. 
+                    In <country ref="#italy">Italy</country> the <orgName type="political_party" ref="#it_com_party">Communist <lb/> Party</orgName> is seriously hampered by having 
+                    to support the <rs type="communism">Communist-trained</rs> <persName ref="#tito"><roleName type="military_rank">Marshal</roleName> Tito</persName>'s claims to <lb/> former 
+                    <nationality type="nationality" ref="#italian">Italian</nationality> territory at the head of the <placeName ref="#adriatic">Adriatic</placeName>. Nevertheless the 
+                    future of <country ref="#italy">Italy</country> hangs in the balance. <lb/> Again one cannot imagine a regenerated <placeName ref="#europe">Europe</placeName> 
+                    without a strong <country ref="#france">France</country>. All my public life I have <lb/> worked for a strong <country ref="#france">France</country> and I never 
+                    lost faith in her destiny, even in the darkest hours. I will not lose ù<lb/> faith now. However, in a great number of countries, far from the <placeName 
+                    type="frontier" ref="#russian">Russian frontiers</placeName> and throughout the <lb/> world, <orgName type="communism">Communist fifth columns</orgName> are 
+                    established and work in complete unity and absolute obedience <lb/> to the directions they receive from the <orgName type="communism" ref="#communist_center">
+                    Communist center</orgName>. Except in the <bloc>British Commonwealth</bloc> and in <lb/>                     the <country ref="#usa">United States</country> where <name
+                    type="political_ideology" ref="#communism">Communism</name> is in its infancy, the <orgName type="political_party" ref="#communist_party">Communist 
+                    parties</orgName> or <orgName>fifth columns</orgName> <lb/> constitute a growing challenge and peril to <bloc>Christian civilization</bloc>. These are somber 
+                    facts for anyone to <lb/> have to recite on the morrow of a victory gained by so much splendid comradeship in arms and in the <lb/> cause of freedom and democracy; 
+                    but we should be most unwise not to face them squarely while time <lb/> remains.
+                </p>
+                <p>
+                    <lb/> The outlook is also anxious in the <placeName>Far East</placeName> and especially in <placeName>Manchuria</placeName>. The <eventName>Yalta Agreement</eventName> which was 
+                    <lb/> made at <placeName>Yalta</placeName>, to which I was a party, was extremely favorable to <placeName>Soviet Russia</placeName>, but it was made at a 
+                    <lb/> time when no one could say that the <eventName>German war</eventName> might not extend all through the summer and 
+                    <lb/> autumn of <date when="1945">1945</date> and when the <eventName>Japanese war</eventName> was expected to last for a further <date>18 months</date> from the end 
+                    <lb/> of the <eventName>German war</eventName>. In this country you are all so well-informed about the <placeName>Far East</placeName>, and such devoted 
+                    <lb/> friends of <placeName>China</placeName>, that I do not need to expatiate on the situation there.
+                </p>
+                <p>
+                    <lb/> I have felt bound to portray the shadow which, alike in the west and in the east, falls upon the world. I 
+                    <lb/> was a high minister at the time of the <name type="treaty">Versailles Treaty</name> and a close friend of <persName>Mr. Lloyd George</persName>, who was 
+                    <lb/> the head of the British delegation at <placeName>Versailles</placeName>. I did not myself agree with many things that were done, 
+                    <lb/> but I have a very strong impression in my mind of that situation, and I find it painful to contrast it with 
+                    <lb/> that which prevails now. In those days there were high hopes and unbounded confidence that the wars 
+                    <lb/> were over, and that the <orgName>League of Nations</orgName> would become all-powerful. I do not see or feel that same 
+                    <lb/> confidence or even the same hopes in the haggard world at the present time.
+                </p>
+                <p>
+                    <lb/> On the other hand I repulse the idea that a new war is inevitable; still more that it is imminent. It is 
+                    <lb/> because I am sure that our fortunes are still in our own hands and that we hold the power to save the 
+                    <lb/> future, that I feel the duty to speak out now that I have the occasion and the opportunity to do so. I do 
+                    <lb/> not believe that Soviet Russia desires war. What they desire is the fruits of war and the indefinite 
+                    <lb/> expansion of their power and doctrines. But what we have to consider here today while time remains, 
+                    <lb/> is the permanent prevention of war and the establishment of conditions of freedom and democracy as 
+                    <lb/> rapidly as possible in all countries. Our difficulties and dangers will not be removed by closing our eyes 
+                    <lb/> to them. They will not be removed by mere waiting to see what happens; nor will they be removed by a 
+                    <lb/> policy of appeasement. What is needed is a settlement, and the longer this is delayed, the more 
+                    <lb/> difficult it will be and the greater our dangers will become.
+                </p>
+                <p>
+                    <lb/> From what I have seen of our Russian friends and Allies during the war, I am convinced that there is 
+                    <lb/> nothing they admire so much as strength, and there is nothing for which they have less respect than 
+                    <lb/> for weakness, especially military weakness. For that reason the old doctrine of a balance of power is 
+                    <lb/> unsound. We cannot afford, if we can help it, to work on narrow margins, offering temptations to a trial 
+                    <lb/> of strength. If the Western Democracies stand together in strict adherence to the principles of the 
+                    <lb/> <name type="charter" ref="#uno_charter">United Nations Charter</name>, their influence for furthering those principles will be immense and no one is 
+                    <lb/> likely to molest them. If however they become divided or falter in their duty and if these all-important 
+                    <lb/> years are allowed to slip away then indeed catastrophe may overwhelm us all.
+                </p>
+                <p>
+                    <lb/> Last time I saw it all coming and cried aloud to my own fellow-countrymen and to the world, but no 
+                    <lb/> one paid any attention. Up till the year <date when="1933">1933</date> or even <date when="1935">1935</date>, <placeName>Germany</placeName> might have been saved from the 
+                    <lb/> awful fate which has overtaken her and we might all have been spared the miseries <persName>Hitler</persName> let loose 
+                    <lb/> upon mankind. There never was a war in all history easier to prevent by timely action than the <eventName>one 
+                    <lb/> which has just desolated such great areas of the globe</eventName>. It could have been prevented in my belief 
+                    <lb/> without the firing of a single shot, and <placeName>Germany</placeName> might be powerful, prosperous and honored to-day; 
+                    <lb/> but no one would listen and one by one we were all sucked into the awful whirlpool. We surely must 
+                    <lb/> not let that happen again. This can only be achieved by reaching now, in <date when="1946">1946</date>, a good understanding 
+                    <lb/> on all points with <placeName>Russia</placeName> under the general authority of the <orgName>United Nations Organization</orgName> and by the 
+                    <lb/> maintenance of that good understanding through many peaceful years, by the world instrument, 
+                    <lb/> supported by the whole strength of the English-speaking world and all its connections. There is the 
+                    <lb/> solution which I respectfully offer to you in this Address to which I have given the title <title>"The Sinews of 
+                    <lb/> Peace."</title>
+                </p>
+                <p>
+                    <lb/> Let no man underrate the abiding power of the <orgName>British Empire and Commonwealth</orgName>. Because you see 
+                    <lb/> the 46 millions in our island harassed about their food supply, of which they only grow one half, even 
+                    <lb/> in war-time, or because we have difficulty in restarting our industries and export trade after <date>six years</date> of 
+                    <lb/> passionate war effort, do not suppose that we shall not come through these dark years of privation as 
+                    <lb/> we have come through the glorious years of agony, or that <date>half a century from now</date>, you will not see 70 
+                    <lb/> or 80 millions of Britons spread about the world and united in defense of our traditions, our way of life, 
+                    <lb/> and of the world causes which you and we espouse. If the population of the English-speaking 
+                    <lb/> <orgName>Commonwealths</orgName> be added to that of the <placeName>United States</placeName> with all that such co-operation implies in the 
+                    <lb/> air, on the sea, all over the globe and in science and in industry, and in moral force, there will be no 
+                    <lb/> quivering, precarious balance of power to offer its temptation to ambition or adventure. On the 
+                    <lb/> contrary, there will be an overwhelming assurance of security. If we adhere faithfully to the Charter of 
+                    <lb/> the <orgName>United Nations</orgName> and walk forward in sedate and sober strength seeking no one's land or treasure, 
+                    <lb/> seeking to lay no arbitrary control upon the thoughts of men; if all British moral and material forces 
+                    <lb/> and convictions are joined with your own in fraternal association, the high-roads of the future will be 
+                    <lb/> clear, not only for us but for all, not only for our time, but for <date>a century to come</date>.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
