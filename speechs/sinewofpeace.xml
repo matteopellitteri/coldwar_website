@@ -652,7 +652,7 @@
                     lost faith in her destiny, even in the darkest hours. I will not lose ù<lb/> faith now. However, in a great number of countries, far from the <placeName 
                     type="frontier" ref="#russian">Russian frontiers</placeName> and throughout the <lb/> world, <orgName type="communism">Communist fifth columns</orgName> are 
                     established and work in complete unity and absolute obedience <lb/> to the directions they receive from the <orgName type="communism" ref="#communist_center">
-                    Communist center</orgName>. Except in the <bloc>British Commonwealth</bloc> and in <lb/>                     the <country ref="#usa">United States</country> where <name
+                    Communist center</orgName>. Except in the <bloc>British Commonwealth</bloc> and in <lb/> the <country ref="#usa">United States</country> where <name
                     type="political_ideology" ref="#communism">Communism</name> is in its infancy, the <orgName type="political_party" ref="#communist_party">Communist 
                     parties</orgName> or <orgName>fifth columns</orgName> <lb/> constitute a growing challenge and peril to <bloc>Christian civilization</bloc>. These are somber 
                     facts for anyone to <lb/> have to recite on the morrow of a victory gained by so much splendid comradeship in arms and in the <lb/> cause of freedom and democracy; 
@@ -700,7 +700,7 @@
                 <p>
                     <lb/> Last time I saw it all coming and cried aloud to my own fellow-countrymen and to the world, but no 
                     <lb/> one paid any attention. Up till the year <date when="1933">1933</date> or even <date when="1935">1935</date>, <placeName>Germany</placeName> might have been saved from the 
-                    <lb/> awful fate which has overtaken her and we might all have been spared the miseries <persName>Hitler</persName> let loose 
+                    <lb/> awful fate which has overtaken her and we might all have been spared the miseries <persName ref="#hitler">Hitler</persName> let loose 
                     <lb/> upon mankind. There never was a war in all history easier to prevent by timely action than the <eventName>one 
                     <lb/> which has just desolated such great areas of the globe</eventName>. It could have been prevented in my belief 
                     <lb/> without the firing of a single shot, and <placeName>Germany</placeName> might be powerful, prosperous and honored to-day; 
