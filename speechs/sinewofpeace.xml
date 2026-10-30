@@ -228,7 +228,7 @@
                     <place xml:id="china">
                         <placeName><country>China</country></placeName>
                     </place>
-                    <place xml:id="russian">
+                    <place xml:id="russia">
                         <placeName><country>Russia</country></placeName>
                     </place>
                     <place xml:id="atlantic">
@@ -659,33 +659,33 @@
                     but we should be most unwise not to face them squarely while time <lb/> remains.
                 </p>
                 <p>
-                    <lb/> The outlook is also anxious in the <placeName>Far East</placeName> and especially in <placeName>Manchuria</placeName>. The <eventName>Yalta Agreement</eventName> which was 
-                    <lb/> made at <placeName>Yalta</placeName>, to which I was a party, was extremely favorable to <placeName>Soviet Russia</placeName>, but it was made at a 
-                    <lb/> time when no one could say that the <eventName>German war</eventName> might not extend all through the summer and 
-                    <lb/> autumn of <date when="1945">1945</date> and when the <eventName>Japanese war</eventName> was expected to last for a further <date>18 months</date> from the end 
-                    <lb/> of the <eventName>German war</eventName>. In this country you are all so well-informed about the <placeName>Far East</placeName>, and such devoted 
-                    <lb/> friends of <placeName>China</placeName>, that I do not need to expatiate on the situation there.
+                    <lb/> The outlook is also anxious in the <placeName ref="#far_east">Far East</placeName> and especially in <placeName ref="#manchuria">Manchuria</placeName>. 
+                    The <eventName ref="#yalta_agreement"><settlement ref="#yalta">Yalta</settlement>Agreement</eventName> which was <lb/> made at <settlement ref="#yalta">
+                    Yalta</settlement>, to which I was a party, was extremely favorable to <country ref="#ussr">Soviet Russia</country>, but it was made at a <lb/> time 
+                    when no one could say that the <eventName ref="#german_war">German war</eventName> might not extend all through the summer and <lb/> autumn of <date 
+                    when="1945">1945</date> and when the <eventName ref="#japanese_war">Japanese war</eventName> was expected to last for a further <date>18 months</date> 
+                    from the end <lb/> of the <eventName ref="#german_war">German war</eventName>. In this country you are all so well-informed about the <placeName 
+                    ref="#far_east">Far East</placeName>, and such devoted <lb/> friends of <country ref="#china">China</country>, that I do not need to expatiate on 
+                    the situation there.
                 </p>
                 <p>
-                    <lb/> I have felt bound to portray the shadow which, alike in the west and in the east, falls upon the world. I 
-                    <lb/> was a high minister at the time of the <name type="treaty">Versailles Treaty</name> and a close friend of <persName>Mr. Lloyd George</persName>, who was 
-                    <lb/> the head of the British delegation at <placeName>Versailles</placeName>. I did not myself agree with many things that were done, 
-                    <lb/> but I have a very strong impression in my mind of that situation, and I find it painful to contrast it with 
-                    <lb/> that which prevails now. In those days there were high hopes and unbounded confidence that the wars 
-                    <lb/> were over, and that the <orgName>League of Nations</orgName> would become all-powerful. I do not see or feel that same 
-                    <lb/> confidence or even the same hopes in the haggard world at the present time.
+                    <lb/> I have felt bound to portray the shadow which, alike in the west and in the east, falls upon the world. I <lb/> was a high minister at the time of 
+                    the <name type="treaty"><settlement ref="#versailles">Versailles Treaty</settlement></name> and a close friend of <persName ref="#lloyd_george">Mr. 
+                    Lloyd George</persName>, who was <lb/> the head of the British delegation at <settlement ref="#versailles">Versailles</settlement>. I did not myself 
+                    agree with many things that were done, <lb/> but I have a very strong impression in my mind of that situation, and I find it painful to contrast it with 
+                    <lb/> that which prevails now. In those days there were high hopes and unbounded confidence that the wars <lb/> were over, and that the <orgName 
+                    ref="#league_of_nations">League of Nations</orgName> would become all-powerful. I do not see or feel that same <lb/> confidence or even the same 
+                    hopes in the haggard world at the present time.
                 </p>
                 <p>
-                    <lb/> On the other hand I repulse the idea that a new war is inevitable; still more that it is imminent. It is 
-                    <lb/> because I am sure that our fortunes are still in our own hands and that we hold the power to save the 
-                    <lb/> future, that I feel the duty to speak out now that I have the occasion and the opportunity to do so. I do 
-                    <lb/> not believe that Soviet Russia desires war. What they desire is the fruits of war and the indefinite 
-                    <lb/> expansion of their power and doctrines. But what we have to consider here today while time remains, 
-                    <lb/> is the permanent prevention of war and the establishment of conditions of freedom and democracy as 
-                    <lb/> rapidly as possible in all countries. Our difficulties and dangers will not be removed by closing our eyes 
-                    <lb/> to them. They will not be removed by mere waiting to see what happens; nor will they be removed by a 
-                    <lb/> policy of appeasement. What is needed is a settlement, and the longer this is delayed, the more 
-                    <lb/> difficult it will be and the greater our dangers will become.
+                    <lb/> On the other hand I repulse the idea that a new war is inevitable; still more that it is imminent. It is <lb/> because I am sure that our 
+                    fortunes are still in our own hands and that we hold the power to save the <lb/> future, that I feel the duty to speak out now that I have the 
+                    occasion and the opportunity to do so. I do <lb/> not believe that <country ref="#ussr">Soviet Russia</country> desires war. What they desire is 
+                    the fruits of war and the indefinite <lb/> expansion of their power and doctrines. But what we have to consider here today while time remains, 
+                    <lb/> is the permanent prevention of war and the establishment of conditions of freedom and democracy as <lb/> rapidly as possible in all countries. 
+                    Our difficulties and dangers will not be removed by closing our eyes <lb/> to them. They will not be removed by mere waiting to see what happens; 
+                    nor will they be removed by a <lb/> policy of appeasement. What is needed is a settlement, and the longer this is delayed, the more <lb/> difficult 
+                    it will be and the greater our dangers will become.
                 </p>
                 <p>
                     <lb/> From what I have seen of our Russian friends and Allies during the war, I am convinced that there is 
