@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<site:metadata
+    xmlns:site="http://example.org/coldwar_site/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://example.org/MyProject/ http://example.org/MyProject/schema.xsd"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/">
+
+    <dc:title xsi:type="site:viaf" site:ref="https://viaf.org/en/viaf/180358552">The Sinews of Peace</dc:title>
+    <dc:title>Speech by Winston S. Churchill, Prime Minister of the United Kingdom, at Westminster College, Fulton, Missouri, USA</dc:title>
+    <dc:creator xsi:type="site:viaf" site:ref="https://viaf.org/en/viaf/94507588">Winston S. Churchill</dc:creator>
+    <dc:date xsi:type="dcterms:W3CDTF">1946-03-05</dc:date>
+
+    <dc:publisher xsi:type="site:viaf" site:ref="https://viaf.org/en/viaf/148423701">North Atlantic Treaty Organization (NATO)</dc:publisher>
+    <dc:contributor xsi:type="site:viaf" site:ref="https://viaf.org/en/viaf/148423701">North Atlantic Treaty Organization (NATO)</dc:contributor>
+    
+    <dc:description>
+        The Sinews of Peace, often referred to as the Iron Curtain speech, was delivered by Winston Churchill on 5 March 1946,
+        at Westminster College in Fulton, Missouri. In this speech, Churchill warned against the expansionist policies of the
+        Soviet Union and advocated for a strong alliance between Western nations to counter the threat of communism.
+    </dc:description>
+
+    <dc:subject dc:type="dcterms:LCSH">Cold War</dc:subject>
+    <dc:subject dc:type="dcterms:LCSH">Iron Curtain</dc:subject>
+    <dc:subject dc:type="dcterms:LCSH">International relations</dc:subject>
+
+    <dc:coverage site:ref="http://vocab.getty.edu/page/tgn/2058848">Fulton</dc:coverage>
+    <dc:coverage site:ref="http://vocab.getty.edu/page/tgn/7007523">Missouri</dc:coverage>
+    <dc:coverage site:ref=" http://vocab.getty.edu/page/tgn/7012149">United States</dc:coverage>
+
+    <dc:type>Text</dc:type>
+    <dc:format xsi:type="dcterms:IMT">text/html</dc:format>
+    <dc:language xsi:type="dcterms:ISO639-1">en</dc:language>
+    <dc:source>https://www.nato.int/en/news-and-events/events/transcripts/1946/03/05/the-sinews-of-peace</dc:source>
+    <dc:identifier xsi:type="dcterms:URI">https://www.nato.int/en/news-and-events/events/transcripts/1946/03/05/the-sinews-of-peace</dc:identifier>
+    <dc:rights>Public domain; transcript made available by the North Atlantic Treaty Organization (NATO)</dc:rights>
+</site:metadata>

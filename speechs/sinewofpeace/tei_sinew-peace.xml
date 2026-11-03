@@ -7,9 +7,10 @@
                 <title>
                     <title type="main">The Sinews of Peace</title>
                     <title type="sub">
-                        Speech by <persName>Winston S. Churchill</persName>, 
-                        <roleName>Prime Minister of the <placeName>United Kingdom</placeName></roleName> at the <placeName>
-                        <orgName>Westminster College</orgName>, <settlement>Fulton</settlement>, <region>Missouri</region>, <country>USA</country></placeName>
+                        Speech by <persName ref="#churchill">Winston S. Churchill</persName>, 
+                        <roleName ref="#br_pm">Prime Minister of the <placeName ref="#uk">United Kingdom</placeName></roleName> at the 
+                        <placeName><orgName ref="#wmc">Westminster College</orgName>, <settlement ref="#fulton">Fulton</settlement>, 
+                        <region ref="#missouri">Missouri</region>, <country ref="#usa">USA</country></placeName>
                     </title>
                     <date when="1946-03-05">05 March 1946</date>
                 </title>
