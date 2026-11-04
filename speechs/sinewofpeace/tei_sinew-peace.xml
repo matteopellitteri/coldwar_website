@@ -508,14 +508,14 @@
         <body>
             <head>
                 <title>
-                    <title>The Sinews of Peace</title>
+                    <title><lb/>The Sinews of Peace</title>
                     <title>
-                        Speech by <persName ref="#churchill">Winston S. Churchill</persName>, <roleName roleName="#br_pm">Prime Minister of the <country ref="#uk">United Kingdom
+                        <lb/>Speech by <persName ref="#churchill">Winston S. Churchill</persName>, <roleName roleName="#br_pm">Prime Minister of the <country ref="#uk">United Kingdom
                         </country></roleName> at the <placeName><orgName ref="#wmc">Westminster College</orgName>, <settlement ref="#fulton">Fulton</settlement>, <region 
                         ref="#missouri">Missouri</region>, <country ref="#usa">USA</country></placeName>
                     </title>
-                    <dateline><date>05 March 1946</date></dateline>
-                    <p>21 <abbr>MIN</abbr> READ</p>
+                    <dateline><date><lb/>05 March 1946</date></dateline>
+                    <p><lb/>21 <abbr>MIN</abbr> READ</p>
                 </title>
             </head>
             <div>
