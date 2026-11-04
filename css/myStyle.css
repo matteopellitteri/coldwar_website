@@ -248,6 +248,22 @@ main {
     color: var(--muted);
 }
 
+.speech-location {
+    margin-top: 20px;
+}
+
+.speech-location h4 {
+    margin-bottom: 10px;
+    color: var(--muted);
+}
+
+#speech-map {
+    height: 360px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    z-index: 0;
+}
+
 .speech-page .speechinfo a,
 .speech-page .related-links a {
     color: var(--accent);
@@ -289,6 +305,10 @@ main {
     text-align: left;
     text-decoration: none;
     transition: box-shadow 0.25s ease;
+}
+
+.speech-page .related-aside > a + a {
+    margin-top: 12px;
 }
 
 .speech-page .related-aside > a:hover {

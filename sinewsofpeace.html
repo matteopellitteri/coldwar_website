@@ -3,6 +3,7 @@
 <html>
     <head> <!-- HEADER OF THE PAGE AND METADATAS IN DUBLIN CORE -->
         <link rel="stylesheet" href="css/myStyle.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
         <script src="js/myScript.js" defer></script>
         <title>The Sinews of Peace</title>
         <meta charset="UTF-8">
@@ -98,6 +99,11 @@
                         </div>
                     </section>
 
+                    <section class="speech-location">
+                        <h4>Location: Fulton, Missouri</h4>
+                        <div id="speech-map" role="region" aria-label="Map showing Westminster College in Fulton, Missouri"></div>
+                    </section>
+
                     <section class="speechtext"> <!-- SPEECH TEXT -->
                         <h4></h4>
                         <p>
@@ -128,6 +134,13 @@
                             <p>Politician</p>
                         </div>
                     </a>
+                    <a href="persons.html" title="Joseph Stalin">
+                        <img src="photos/960px-Joseph_Stalin_official_portrait-3719296060.jpg" alt="Joseph Stalin">
+                        <div class="card_info">
+                            <h3>Joseph Stalin</h3>
+                            <p>Politician</p>
+                        </div>
+                    </a>
                 </aside>
             </div>
 
@@ -142,5 +155,18 @@
         <footer class="footer"> <!-- FOOTER AT THE BOTTON OF THE PAGE -->
             <p>&copy; 2024 Cold War. Tutti i diritti riservati.</p>
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
+        <script>
+            const map = L.map("speech-map").setView([38.8467, -91.9478], 13);
+
+            L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+
+            L.marker([38.8467, -91.9478])
+                .addTo(map)
+                .bindPopup("Westminster College, Fulton, Missouri");
+        </script>
     </body>
 </html>
