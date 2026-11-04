@@ -9,7 +9,7 @@
 
     <dc:title xsi:type="site:viaf" site:ref="https://viaf.org/en/viaf/180358552">The Sinews of Peace</dc:title>
     <dc:title>Speech by Winston S. Churchill, Prime Minister of the United Kingdom, at Westminster College, Fulton, Missouri, USA</dc:title>
-    <dc:creator xsi:type="site:viaf" site:ref="https://viaf.org/en/viaf/94507588">Winston S. Churchill</dc:creator>
+    <dc:creator xsi:type="site:viaf" site:ref="https://viaf.org/en/viaf/94507588">Churchill, Winston S.</dc:creator>
     <dc:date xsi:type="dcterms:W3CDTF">1946-03-05</dc:date>
 
     <dc:publisher xsi:type="site:viaf" site:ref="https://viaf.org/en/viaf/148423701">North Atlantic Treaty Organization (NATO)</dc:publisher>
@@ -24,6 +24,8 @@
     <dc:subject dc:type="dcterms:LCSH">Cold War</dc:subject>
     <dc:subject dc:type="dcterms:LCSH">Iron Curtain</dc:subject>
     <dc:subject dc:type="dcterms:LCSH">International relations</dc:subject>
+    <dc:subject dc:type="dcterms:LCSH">Communism</dc:subject>
+    <dc:subject dc:type="dcterms:LCSH">Democracy</dc:subject>
 
     <dc:coverage site:ref="http://vocab.getty.edu/page/tgn/2058848">Fulton</dc:coverage>
     <dc:coverage site:ref="http://vocab.getty.edu/page/tgn/7007523">Missouri</dc:coverage>

@@ -4,7 +4,7 @@
     <head> <!-- HEADER OF THE PAGE AND METADATAS IN DUBLIN CORE -->
         <link rel="stylesheet" href="css/myStyle.css">
         <script src="js/myScript.js" defer></script>
-        <title>COLD WAR</title>
+        <title>Persons</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,7 @@
                     <a href="persons.html" title="PERSONS"><b>Persons</b></a>
                     <a href="speechs.html" title="SPEECHS"><b>Speechs</b></a>
                     <a href="#" title="EVENTS"><b>Events</b></a>
-                    <a href="photos.html" title="PHOTOS"><b>Photos</b></a>
+                    <a href="#" title="PHOTOS"><b>Photos</b></a>
                 </div>
 
                 <div class="navbar_right">
@@ -34,17 +34,28 @@
 
         <main>
             <section class="pagedescription"> <!-- PAGE DESCRIPTION -->
-                <h3><b>Biographies of...</b></h3>
+                <h3><b>Biographies of Cold War Figures</b></h3>
 
                 <p>
-                    During the Cold War...
+                    During the Cold War era, several influential figures played pivotal roles in shaping the political landscape 
+                    and international relations. These individuals, including politicians, military leaders, and diplomats, were 
+                    instrumental in navigating the complex dynamics of the Cold War. Notable figures include Winston Churchill, 
+                    Joseph Stalin, Mikhail Gorbachev, Ronald Reagan, and John F. Kennedy. Each of these leaders left a lasting 
+                    impact on history through their decisions, policies, and leadership during this tense period of global 
+                    conflict.
                 </p>
             </section>
 
-            <section class="cards"> <!-- BIOGRAPHIES -->
+            <section class="filters"> <!-- FILTERS SECTION -->
+                <input type="text" id="myName" onkeyup="myFunctionName()" placeholder="Search for name..." title="NAME">
+                
+                <script src="js/filters.js"></script>
+            </section>
+
+            <section class="cards persons-cards" id="myCards"> <!-- BIOGRAPHIES -->
                 <div class="card"> <!-- WINSTON CHURCHILL BIOGRAPHY -->
-                    <a href="persons.html" title="Winston Churchill">
-                        <img src="" alt="Winston Churchill">
+                    <a href="churchill.html" title="Winston Churchill">
+                        <img src="photos/250px-Sir_Winston_Churchill_-_19086236948-2138968114.jpg" alt="Winston Churchill">
                         <div class="card_info">
                             <h3>Winston Churchill</h3>
                             <p>Politician</p>
@@ -53,41 +64,41 @@
                 </div>
 
                 <div class="card"> <!-- SINEWS OF PEACE SPEECH -->
-                    <a href="speechs.html" title="Sinews of peace">
-                        <img src="" alt="Sinews of peace">
+                    <a href="persons.html" title="Joseph Stalin">
+                        <img src="photos/960px-Joseph_Stalin_official_portrait-3719296060.jpg" alt="Joseph Stalin">
                         <div class="card_info">
-                            <h3>Sinews of peace</h3>
-                            <p>Winston Churchill, 5 marzo 1946</p>
+                            <h3>Joseph Stalin</h3>
+                            <p>Politician</p>
                         </div>
                     </a>
                 </div>
 
                 <div class="card"> <!-- WINSTON CHURCHILL PHOTOS -->
-                    <a href="photos.html" title="Winston Churchill">
-                        <img src="" alt="Winston Churchill">
+                    <a href="persons.html" title="Mikhail Gorbachev">
+                        <img src="photos/Bundesarchiv_Bild_183-B0628-0015-035,_Nikita_S._Chruschtschow-1672508717.jpg" alt="Mikhail Gorbachev">
                         <div class="card_info">
-                            <h3>Winston Churchill</h3>
-                            <p>Photos</p>
+                            <h3>Mikhail Gorbachev</h3>
+                            <p>Politician</p>
                         </div>
                     </a>
                 </div>
 
                 <div class="card"> <!-- WINSTON CHURCHILL BIOGRAPHY -->
-                    <a href="persons.html" title="Winston Churchill">
-                        <img src="" alt="Winston Churchill">
+                    <a href="persons.html" title="Ronald Reagan">
+                        <img src="photos/Official_Portrait_of_President_Reagan_1981-238184094.jpg" alt="Ronald Reagan">
                         <div class="card_info">
-                            <h3>Winston Churchill</h3>
-                            <p>Biography</p>
+                            <h3>Ronald Reagan</h3>
+                            <p>Politician</p>
                         </div>
                     </a>
                 </div>
 
                 <div class="card"> <!-- WINSTON CHURCHILL BIOGRAPHY -->
-                    <a href="persons.html" title="Winston Churchill">
-                        <img src="" alt="Winston Churchill">
+                    <a href="persons.html" title="John F. Kennedy">
+                        <img src="photos/1310791-John_Fitzgerald_Kennedy-3830969707.jpg" alt="John F. Kennedy">
                         <div class="card_info">
-                            <h3>Winston Churchill</h3>
-                            <p>Biography</p>
+                            <h3>John F. Kennedy</h3>
+                            <p>Politician</p>
                         </div>
                     </a>
                 </div>
