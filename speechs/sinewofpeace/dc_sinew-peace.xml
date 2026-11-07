@@ -10,6 +10,15 @@
     <dc:title xsi:type="site:viaf" site:ref="https://viaf.org/en/viaf/180358552">The Sinews of Peace</dc:title>
     <dc:title>Speech by Winston S. Churchill, Prime Minister of the United Kingdom, at Westminster College, Fulton, Missouri, USA</dc:title>
     <dc:creator xsi:type="site:viaf" site:ref="https://viaf.org/en/viaf/94507588">Churchill, Winston S.</dc:creator>
+    <dc:creator 
+        xsi:type="site:isni" site:ref="https://isni.oclc.org/cbs/xslt/DB=1.2//CMD?ACT=SRCH&IKT=8006&TRM=ISN%3A000000
+        0120966628&TERMS_OF_USE_AGREED=Y&terms_of_use_agree=send&COOKIE=U50,KENDUSER,I28,B0028++++++,
+        SY,NISNI,D1.2,E25f862e7-a8,A,H1,,3-28,,30-41,,43-59,,65-70,,74-75,R93.70.85.189,FY">Churchill, Winston S.
+    </dc:creator>
+    <dc:creator xsi:type="site:bnmm" site:ref="https://catalogo.bn.gov.ar/F/?func=direct&local_base=BNA10&doc_number=000031007">Churchill, Winston S.</dc:creator>
+    <dc:creator xsi:type="site:VcBA ID" site:ref="https://opac.vatlib.it/auth/detail/495_25215">Churchill, Winston S.</dc:creator>
+    <dc:creator xsi:type="site:lccn" site:ref="https://id.loc.gov/authorities/names/n78085430.html">Churchill, Winston S.</dc:creator>
+    <dc:creator xsi:type="site:gnd" site:ref="https://portal.dnb.de/opac.htm?method=simpleSearch&cqlMode=true&query=nid%3D118520776">Churchill, Winston S.</dc:creator>
     <dc:date xsi:type="dcterms:W3CDTF">1946-03-05</dc:date>
 
     <dc:publisher xsi:type="site:viaf" site:ref="https://viaf.org/en/viaf/148423701">North Atlantic Treaty Organization (NATO)</dc:publisher>
