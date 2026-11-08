@@ -682,6 +682,18 @@ main {
     flex: 1;
 }
 
+.persons-cards#myCards .card,
+.persons-cards#myCards .card > a {
+    height: auto;
+}
+
+.persons-cards#myCards .card img {
+    flex: 0 0 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center 15%;
+}
+
 .card_info {
     padding: 2px 16px;
     color: var(--text);
