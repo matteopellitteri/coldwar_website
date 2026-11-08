@@ -19,6 +19,10 @@
     <dc:creator xsi:type="site:gnd" site:ref="https://portal.dnb.de/opac.htm?method=simpleSearch&amp;cqlMode=true&amp;query=nid%3D118520776">Churchill, Winston S.</dc:creator>
     <dc:date xsi:type="dcterms:W3CDTF">1946-03-05</dc:date>
 
+    <dc:coverage site:ref="http://vocab.getty.edu/page/tgn/2058848">Fulton</dc:coverage>
+    <dc:coverage site:ref="http://vocab.getty.edu/page/tgn/7007523">Missouri</dc:coverage>
+    <dc:coverage site:ref="http://vocab.getty.edu/page/tgn/7012149">United States</dc:coverage>
+
     <dc:publisher xsi:type="site:viaf" site:ref="https://viaf.org/en/viaf/148423701">North Atlantic Treaty Organization (NATO)</dc:publisher>
     <dc:contributor xsi:type="site:viaf" site:ref="https://viaf.org/en/viaf/148423701">North Atlantic Treaty Organization (NATO)</dc:contributor>
     
@@ -33,10 +37,6 @@
     <dc:subject dc:type="dcterms:LCSH">International relations</dc:subject>
     <dc:subject dc:type="dcterms:LCSH">Communism</dc:subject>
     <dc:subject dc:type="dcterms:LCSH">Democracy</dc:subject>
-
-    <dc:coverage site:ref="http://vocab.getty.edu/page/tgn/2058848">Fulton</dc:coverage>
-    <dc:coverage site:ref="http://vocab.getty.edu/page/tgn/7007523">Missouri</dc:coverage>
-    <dc:coverage site:ref="http://vocab.getty.edu/page/tgn/7012149">United States</dc:coverage>
 
     <dc:type>Text</dc:type>
     <dc:format xsi:type="dcterms:IMT">text/html</dc:format>
