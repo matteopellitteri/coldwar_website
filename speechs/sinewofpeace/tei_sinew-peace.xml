@@ -52,12 +52,11 @@
             <particDesc>
                 <listPerson type="person">
                     <person xml:id="churchill" role="Prime Minister of the United Kingdom">
-                        <persName 
-                            sameAs="https://viaf.org/en/viaf/94507588 https://isni.oclc.org/cbs/xslt/DB=1.2//CMD?ACT=SRCH&IKT=8006&TRM=ISN%3A000000
-                            0120966628&TERMS_OF_USE_AGREED=Y&terms_of_use_agree=send&COOKIE=U50,KENDUSER,I28,B0028++++++,SY,NISNI,D1.2,E25f862e7-a8,
-                            A,H1,,3-28,,30-41,,43-59,,65-70,,74-75,R93.70.85.189,FY https://catalogo.bn.gov.ar/F/?func=direct&local_base=BNA10&doc_
-                            number=000031007 https://opac.vatlib.it/auth/detail/495_25215 https://id.loc.gov/authorities/names/n78085430.html https
-                            ://portal.dnb.de/opac.htm?method=simpleSearch&cqlMode=true&query=nid%3D118520776">
+                        <persName sameAs="https://viaf.org/en/viaf/94507588
+                            https://isni.oclc.org/cbs/xslt/DB=1.2//CMD?ACT=SRCH&amp;IKT=8006&amp;TRM=ISN%3A0000000120966628&amp;TERMS_OF_USE_AGREED=Y&amp;terms_of_use_agree=send&amp;COOKIE=U50,KENDUSER,I28,B0028++++++,SY,NISNI,D1.2,E25f862e7-a8,A,H1,,3-28,,30-41,,43-59,,65-70,,74-75,R93.70.85.189,FY
+                            https://catalogo.bn.gov.ar/F/?func=direct&amp;local_base=BNA10&amp;doc_number=000031007 
+                            https://opac.vatlib.it/auth/detail/495_25215 https://id.loc.gov/authorities/names/n78085430.html 
+                            https://portal.dnb.de/opac.htm?method=simpleSearch&amp;cqlMode=true&amp;query=nid%3D118520776">
                             <forename>Winston</forename>
                             <forename>Leonard</forename>
                             <forename>Spencer</forename>
@@ -129,7 +128,7 @@
                 </listPerson>
                 <listPerson type="person_grp">
                     <personGrp xml:id="en_peoples" role="English-speaking peoples">
-                        <persName sameAs="https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=ge118431&CON_LNG=ENG">English-speaking peoples</persName>
+                        <persName sameAs="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=ge118431&amp;CON_LNG=ENG">English-speaking peoples</persName>
                     </personGrp>
                     <personGrp xml:id="brit_peoples" role="British peoples">
                         <persName sameAs="https://id.loc.gov/authorities/subjects/sh85016960.html">British peoples</persName>
@@ -144,13 +143,13 @@
                         <persName>Workmen</persName>
                     </personGrp>
                     <personGrp xml:id="russian_people" role="Russian people">
-                        <persName sameAs="https://portal.dnb.de/opac.htm?method=simpleSearch&cqlMode=true&query=nid%3D4051034-7">Russian people</persName>
+                        <persName sameAs="https://portal.dnb.de/opac.htm?method=simpleSearch&amp;cqlMode=true&amp;query=nid%3D4051034-7">Russian people</persName>
                     </personGrp>
                     <personGrp xml:id="french" role="French people">
-                        <persName sameAs="https://portal.dnb.de/opac.htm?method=simpleSearch&cqlMode=true&query=nid%3D4018199-6">French</persName>
+                        <persName sameAs="https://portal.dnb.de/opac.htm?method=simpleSearch&amp;cqlMode=true&amp;query=nid%3D4018199-6">French</persName>
                     </personGrp>
                     <personGrp xml:id="germans" role="German people">
-                        <persName sameAs="https://portal.dnb.de/opac.htm?method=simpleSearch&cqlMode=true&query=nid%3D4070334-4">Germans</persName>
+                        <persName sameAs="https://portal.dnb.de/opac.htm?method=simpleSearch&amp;cqlMode=true&amp;query=nid%3D4070334-4">Germans</persName>
                     </personGrp>
                     <personGrp xml:id="german_leaders" role="German leaders">
                         <persName>German leaders</persName>
@@ -409,7 +408,7 @@
                         <orgName type="educational_body">Educational Institution</orgName>
                     </org>
                     <org xml:id="political_party">
-                        <orgName type="political_group" sameAs="https://portal.dnb.de/opac.htm?method=simpleSearch&cqlMode=true&query=nid%3D4044737-6 
+                        <orgName type="political_group" sameAs="https://portal.dnb.de/opac.htm?method=simpleSearch&amp;cqlMode=true&amp;query=nid%3D4044737-6 
                         https://www.wikidata.org/wiki/Q7278">Political Party</orgName>
                     </org>
                     <org xml:id="british_parliament">
