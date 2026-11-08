@@ -33,7 +33,8 @@ const searchPages = [
     { title: "On the Cult of Personality and Its Consequences", path: "speechs.html", keywords: ["khrushchev speech", "cult of personality"] },
     { title: "Ich bin ein Berliner", path: "speechs.html", keywords: ["kennedy speech", "berliner"] },
     { title: "Remarks on East-West Relations at the Brandenburg Gate", path: "speechs.html", keywords: ["reagan speech", "brandenburg gate"] },
-    { title: "Address to the United Nations General Assembly", path: "speechs.html", keywords: ["gorbachev speech", "united nations"] }
+    { title: "Address to the United Nations General Assembly", path: "speechs.html", keywords: ["gorbachev speech", "united nations"] },
+    { title: "Metadata", path: "metadata.html", keywords: ["data", "information", "metadata"] }
 ];
 
 function normalizeSearchText(value) {

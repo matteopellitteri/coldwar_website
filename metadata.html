@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html>
+    <head> <!-- HEADER OF THE PAGE AND METADATAS IN DUBLIN CORE -->
+        <link rel="stylesheet" href="css/myStyle.css">
+        <script src="js/myScript.js" defer></script>
+        <script src="js/metadata-export.js" defer></script>
+        <title>Cold War Resource Metadata</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Matteo Pellitteri">
+        <meta name="description" content="Metadata for speeches and other resources about the Cold War.">
+        <meta name="DC.title" content="Cold War Resource Metadata">
+        <meta name="DC.creator" content="Matteo Pellitteri">
+        <meta name="DC.subject" content="Cold War; speeches; Dublin Core">
+        <meta name="DC.description" content="Metadata describing speeches and other resources about the Cold War.">
+        <meta name="DC.publisher" content="COLD WAR">
+        <meta name="DC.type" content="Text">
+        <meta name="DC.format" content="text/html">
+        <meta name="DC.language" content="en">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar"> <!-- NAVIGATIONBAR ON THE TOP OF THE PAGE -->
+                <div class="navbar_left">
+                    <a href="index.html" id="logo" title="HOME"><b>COLD WAR</b></a>
+                </div>
+
+                <div class="navbar_center"> <!-- NAVIGATION LINKS -->
+                    <a href="speechs.html" title="SPEECHS"><b>Speechs</b></a>
+                    <a href="persons.html" title="PERSONS"><b>Persons</b></a>
+                    <a href="#" title="EVENTS"><b>Events</b></a>
+                    <a href="#" title="PHOTOS"><b>Photos</b></a>
+                    <a href="metadata.html" title="METADATA"><b>Data</b></a>
+                </div>
+
+                <div class="navbar_right">
+                    <a href="login.html" id="login" title="LOGIN"><b>LOGIN</b></a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="metadata-table-wrapper">
+                <table class="metadata-table">
+                    <caption>Speech Metadata</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Speech</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Keywords</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>The Sinews of Peace</td>
+                            <td><time datetime="1946-03-05">5 March 1946</time></td>
+                            <td>Churchill warns of Soviet expansion and calls for a strong alliance among Western democracies.</td>
+                            <td>
+                                <ul class="metadata-keywords">
+                                    <li>Iron Curtain</li>
+                                    <li>Communism</li>
+                                    <li>Western alliance</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>On the Cult of Personality and Its Consequences</td>
+                            <td><time datetime="1956-02-25">25 February 1956</time></td>
+                            <td>Khrushchev denounces Stalin's rule and the consequences of the cult of personality.</td>
+                            <td>
+                                <ul class="metadata-keywords">
+                                    <li>De-Stalinization</li>
+                                    <li>Stalin</li>
+                                    <li>Soviet Union</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ich bin ein Berliner</td>
+                            <td><time datetime="1963-06-26">26 June 1963</time></td>
+                            <td>Kennedy expresses solidarity with West Berlin and affirms the city's freedom.</td>
+                            <td>
+                                <ul class="metadata-keywords">
+                                    <li>Berlin</li>
+                                    <li>Freedom</li>
+                                    <li>Solidarity</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Remarks on East-West Relations at the Brandenburg Gate</td>
+                            <td><time datetime="1987-06-12">12 June 1987</time></td>
+                            <td>Reagan urges Soviet leader Mikhail Gorbachev to open the Berlin Wall.</td>
+                            <td>
+                                <ul class="metadata-keywords">
+                                    <li>Berlin Wall</li>
+                                    <li>East-West relations</li>
+                                    <li>Reunification</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Address to the United Nations General Assembly</td>
+                            <td><time datetime="1988-12-07">7 December 1988</time></td>
+                            <td>Gorbachev outlines reforms and announces reductions in Soviet military forces.</td>
+                            <td>
+                                <ul class="metadata-keywords">
+                                    <li>United Nations</li>
+                                    <li>Perestroika</li>
+                                    <li>Disarmament</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="metadata-export-controls" aria-label="Download speech metadata">
+                    <button class="download-button" type="button" data-export-format="csv">Download CSV</button>
+                    <button class="download-button" type="button" data-export-format="xlsx">Download Excel (.xlsx)</button>
+                </div>
+            </div>
+
+            <div class="metadata-table-wrapper">
+                <table class="metadata-table">
+                    <caption>Political Figures Metadata</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Place and date of birth</th>
+                            <th scope="col">Place and date of death</th>
+                            <th scope="col">Political roles</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="https://viaf.org/en/viaf/94507588"><p>Churchill, Winston S.<sup>VIAF</sup></p></a></td>
+                            <td>Blenheim Palace, England; <time datetime="1874-11-30">30 November 1874</time></td>
+                            <td>London, England; <time datetime="1965-01-24">24 January 1965</time></td>
+                            <td>Prime Minister of the United Kingdom; First Lord of the Admiralty; Member of Parliament</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://viaf.org/en/viaf/101787139"><p>Joseph Stalin<sup>VIAF</sup></p></a></td>
+                            <td>Gori, Russian Empire; <time datetime="1878-12-18">18 December 1878</time></td>
+                            <td>Moscow, Soviet Union; <time datetime="1953-03-05">5 March 1953</time></td>
+                            <td>General Secretary of the Communist Party of the Soviet Union; Premier of the Soviet Union</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://viaf.org/en/viaf/64007537"><p>Nikita Khrushchev<sup>VIAF</sup></p></a></td>
+                            <td>Kalinovka, Russian Empire; <time datetime="1894-04-15">15 April 1894</time></td>
+                            <td>Moscow, Soviet Union; <time datetime="1971-09-11">11 September 1971</time></td>
+                            <td>First Secretary of the Communist Party of the Soviet Union; Chairman of the Council of Ministers</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://viaf.org/en/viaf/68910251"><p>John F. Kennedy<sup>VIAF</sup></p></a></td>
+                            <td>Brookline, Massachusetts, United States; <time datetime="1917-05-29">29 May 1917</time></td>
+                            <td>Dallas, Texas, United States; <time datetime="1963-11-22">22 November 1963</time></td>
+                            <td>President of the United States; U.S. Senator; U.S. Representative</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://viaf.org/en/viaf/76321889"><p>Ronald Reagan<sup>VIAF</sup></p></a></td>
+                            <td>Tampico, Illinois, United States; <time datetime="1911-02-06">6 February 1911</time></td>
+                            <td>Los Angeles, California, United States; <time datetime="2004-06-05">5 June 2004</time></td>
+                            <td>President of the United States; Governor of California</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://viaf.org/en/viaf/97859168"><p>Mikhail Gorbachev<sup>VIAF</sup></p></a></td>
+                            <td>Privolnoye, Soviet Union; <time datetime="1931-03-02">2 March 1931</time></td>
+                            <td>Moscow, Russia; <time datetime="2022-08-30">30 August 2022</time></td>
+                            <td>General Secretary of the Communist Party of the Soviet Union; President of the Soviet Union</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="metadata-export-controls" aria-label="Download political figures metadata">
+                    <button class="download-button" type="button" data-export-format="csv">Download CSV</button>
+                    <button class="download-button" type="button" data-export-format="xlsx">Download Excel (.xlsx)</button>
+                </div>
+            </div>
+
+            <section class="searchbar"> <!-- SEARCHBAR -->
+                <form>
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer"> <!-- FOOTER AT THE BOTTON OF THE PAGE -->
+            <p>&copy; 2026 Cold War. Tutti i diritti riservati.</p>
+        </footer>
+    </body>
+</html>

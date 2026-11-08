@@ -215,6 +215,32 @@ main {
     box-shadow: 0 3px 10px rgba(29, 36, 48, 0.08);
 }
 
+.speech-page .speechtext {
+    margin-top: 24px;
+    box-sizing: border-box;
+    height: 480px;
+    max-height: 70vh;
+    overflow-y: auto;
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    background-color: var(--card-bg);
+    box-shadow: 0 3px 10px rgba(29, 36, 48, 0.08);
+    line-height: 1.7;
+}
+
+.speech-page .speechtext h4 {
+    margin-bottom: 14px;
+}
+
+.speech-page .speechtext p {
+    margin-bottom: 14px;
+}
+
+.speech-page .speechtext p:last-child {
+    margin-bottom: 0;
+}
+
 .speech-page .speech-summary img {
     display: block;
     max-width: 100%;
@@ -857,4 +883,101 @@ main {
     text-align: center;
     padding: 10px;
     margin-top: auto;
+}
+
+/* METADATAS */
+
+.metadata-table-wrapper {
+    max-width: 1200px;
+    margin: 24px auto;
+    overflow-x: auto;
+}
+
+.metadata-export-controls {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.metadata-export-controls .download-button {
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.metadata-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: var(--text);
+    text-align: left;
+}
+
+.metadata-table caption {
+    margin-bottom: 14px;
+    color: var(--text);
+    font-family: "Cascadia Code", Consolas, monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.metadata-table th,
+.metadata-table td {
+    padding: 14px 16px;
+    border: 1px solid var(--border);
+    vertical-align: top;
+}
+
+.metadata-table th {
+    background-color: var(--navbar-bg);
+    color: var(--navbar-link);
+}
+
+.metadata-table tbody tr:nth-child(odd) {
+    background-color: var(--card-bg);
+}
+
+.metadata-table tbody tr:nth-child(even) {
+    background-color: var(--card-header);
+}
+
+.metadata-table a {
+    color: var(--accent);
+    font-weight: bold;
+    text-decoration-color: rgba(122, 31, 45, 0.35);
+}
+
+.metadata-table a:hover {
+    color: var(--accent-hover);
+    text-decoration-color: currentColor;
+}
+
+.metadata-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.metadata-keywords li {
+    padding: 3px 8px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    background-color: var(--panel-bg);
+    white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+    .metadata-table th,
+    .metadata-table td {
+        padding: 10px;
+    }
+}
+
+.metadata-export-controls {
+    margin-top: 12px;
 }
