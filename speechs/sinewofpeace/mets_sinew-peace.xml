@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mets:mets
+    xmlns:mets="https://www.loc.gov/standards/mets/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/METS/ https://www.loc.gov/standards/mets/mets.xsd"
+    OBJID="sinews_of_peace"
+    TYPE="speech"
+    LABEL="The Sinews of Peace">
+
+    <mets:metsHdr CREATEDATE="2026-11-05">
+        <mets:agent TOLE="CREATOR" TYPE="ORGANIZATION">
+            <mets:name>North Atlantic Treaty Organization (NATO)</mets:name>
+            <mets:note>Creator of the trascription</mets:note>
+        </mets:agent>
+        
+        <mets:agent ROLE="EDITOR">
+            <mets:name>Matteo Pellitteri</mets:name>
+            <mets:note>Editor file METS</mets:note>    
+        </mets:agent>
+    </mets:metsHdr>
+
+    <mets:mdSec ID="sinews_of_peace_dc" USE="DESCRIPTIVE" MDTYPE="DC">
+        <mets:mdWrap MDTYPE="DC" MIMETYPE="text/xml">
+            <mets:xmlData>
+                <dc:title>The Sinews of Peace</dc:title>
+                <dc:title>Speech by Winston S. Churchill, Prime Minister of the United Kingdom, at Westminster College, Fulton, Missouri, USA</dc:title>
+                <dc:creator>Churchill, Winston S.</dc:creator>
+                <dc:date>1946-03-05</dc:date>
+
+                <dc:coverage>Fulton</dc:coverage>
+                <dc:coverage>Missouri</dc:coverage>
+                <dc:coverage>United States</dc:coverage>
+
+                <dc:publisher>North Atlantic Treaty Organization (NATO)</dc:publisher>
+                <dc:contributor>North Atlantic Treaty Organization (NATO)</dc:contributor>
+                <dc:description>The Sinews of Peace, often referred to as the Iron Curtain speech, was delivered by Winston Churchill on 5 March 1946, at Westminster College in Fulton, Missouri. In this speech, Churchill warned against the expansionist policies of the Soviet Union and advocated for a strong alliance between Western nations to counter the threat of communism.</dc:description>
+
+                <dc:subject>Cold War</dc:subject>
+                <dc:subject>Iron Curtain</dc:subject>
+                <dc:subject>International relations</dc:subject>
+                <dc:subject>Communism</dc:subject>
+                <dc:subject>Democracy</dc:subject>
+
+                <dc:type>Text</dc:type>
+                <dc:format>text/html</dc:format>
+                <dc:language>en</dc:language>
+                <dc:source>https://www.nato.int/en/news-and-events/events/transcripts/1946/03/05/the-sinews-of-peace</dc:source>
+                <dc:identifier>https://www.nato.int/en/news-and-events/events/transcripts/1946/03/05/the-sinews-of-peace</dc:identifier>
+                <dc:rights>Public domain; transcript made available by the North Atlantic Treaty Organization (NATO)</dc:rights>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:mdSec>
+</mets:mets>

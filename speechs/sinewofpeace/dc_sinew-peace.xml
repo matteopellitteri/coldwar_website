@@ -3,7 +3,7 @@
 <site:metadata
     xmlns:site="http://example.org/coldwar_site/"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://example.org/MyProject/ http://example.org/MyProject/schema.xsd"
+    xsi:schemaLocation="http://example.org/coldwar_website/ http://example.org/coldwar_website/schema.xsd"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:dcterms="http://purl.org/dc/terms/">
 
